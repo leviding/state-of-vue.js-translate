@@ -1,6 +1,6 @@
 ### Codeship
 
-Codeship is a Continuous Integration Platform in the cloud that lets you ship your apps with confidence. Open source projects are always free on Codeship.
+Codeship 是一个持续集成平台，它可以让你在云端放心地发布你的应用。在 Codeship 上的开源项目总是免费的。
 
 > Vue gave us all the flexibility we needed, to do what we wanted to do. It offers a solid founda- tion that can be expanded any way we like and it’s not opinionated about tools we use in the pursuit of our objectives. That’s what I really like about it.
 >
