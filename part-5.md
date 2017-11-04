@@ -2,50 +2,105 @@
 
 Chess.com is the #1 destination for online chess. Every day more than a million games are played by chess players from all around the world and all skill levels. Chess.com is a fully remote team with 100 team members.
 
+Chess.com 是排名第一的在线国际象棋网站。来自全世界各个地方各个段位的棋手每天要对弈超过 100 万局。Chess.com 是由 100 位成员组成的完全远程的团队。
+
 > It was the first time I’ve read the entire documentation in one sitting. It was 1:30am in the morning. By the time I got to the end of it, I knew that Vue. js was something special. There was something unique about it. Something I’d never seen before.
 >
 > From Scott O’Brien, Lead UX Engineer at Chess.com.
 
+> 这是我第一次一口气阅读完整的文档。现在是早上 1:30。当我看完时，我知道了 Vue.js 是个特别的东西。它有一些独特之处。一些我从来没有见过的东西。
+>
+> 斯科特·奥布里恩，Chess.com 首席用户体验工程师
+
 **CHALLENGE**
+
+**挑战**
 
 Dealing with hard-to-maintain legacy code in Angular 1.
 Introducing new features to increase user engagement.
 Managing change in a fully distributed development team.
 
+处理难以维护的 Angular 1 遗留代码。
+
+引入新特性以增加用户参与度。
+
+在一个完全分布式的开发团队中管理变更。
+
 **SOLUTION**
+
+**解决办法**
 
 Benchmarking all available frameworks.
 Moving from Angular 1 to Vue.js.
 Architecting a growing library of components, each with its modular CSS.
 
+对所有可用的框架进行基准测试。
+
+从 Angular 1 迁移到 Vue.js。
+
+构建日益增长的组件库（连同它的模块化 CSS）。
+
+
 **OUTCOME**
+
+**成果**
+
 Ease of collaboration with a fully remote team.
 More effective way to write CSS inside the app.
 Scaling up efficiently in terms of speed, power, and abstraction when compared to other frameworks.
 
+使得全远程的团队合作更加愉悦。
+
+app 内编写 CSS 更加高效。
+
+与其他框架相比，在速度、能力和抽象方面更有效地进行扩展。
+
 #### Challenge
+
+#### 挑战
 
 Chess.com is the most frequently visited website about chess with a great social network with over 19 million members. It has news, blogs, community, lessons, puzzles, and of course real-time gaming. The complexity of the portal may be overwhelming.
 
+Chess.com 是国际象棋领域中访问频率最高的网站，拥有多达 1900 万成员庞大的社交网络。它有新闻，博客，社区，教程，谜局，当然也包括实时对弈。网站门户的复杂性是巨大的。
+
 Its legacy code was in PHP and Angular 1. At any given moment, Chess.com is hosting tens of thousands of games in real time on the Web and mobile devices. For such a website, performance is everything.
+
+遗留代码是用 PHP 和 Angular 1 编写的。任何时刻，Chess.com 都承载着网页上或手机上成千上万的实时对战游戏。对于这样一个网站来说，性能是第一位的。
 
 > We got to the point where the old way of doing things with Angular 1 was a huge performance bear. It was just getting bigger and bigger. Some parts of our website became unusable on legacy hardware from a performance perspective. It was unmaintainable, Scott recals.
 
+> 我们已经知道使用 Angular 1 是一个巨大的性能瓶颈。它只会变得越来越大。从性能角度来看，我们网站的有些部分在一些遗留的硬件设备上已经变得无法使用。它是无法维护的，斯科特回忆说。
+
+
 The challenge that Chess.com was facing was not only dealing with existing features, but also planning for future ones.
+
+Chess.com 面临的挑战不仅是处理现有的功能，也包括对新功能的规划
 
 ![](https://ooo.0o0.ooo/2017/11/03/59fc0a031aef2.jpg)
 
 > A lot of the discussion was about architecture because we knew we had a bunch of new features we are trying to add to keep people engaged to play more chess and try different ways of playing chess, Scott explains.
 
+> 大部分讨论都是关于架构，因为我们知道需要加入很多新的功能以保证用户下更多的棋并尝试各种不同的下棋方式，斯科特解释说。
+
 > I wouldn’t say it was out of reach with Angular, but it was very tough to do it well in terms of performance with those legacy javascript frameworks.
+
+> 我不是说用 Angular 就做不了，只是用这些过时的 javascript 框架很难做到。
 
 To improve the user experience, Chess.com required some real changes.
 
+为了提高用户体验， Chess.com 需要做一些真正的改变。
+
 > We knew we needed to take a leap. There was significant delibera- tion over which framework we wanted to move to from Angular 1. Of course, we considered the big players—Angular 2 and React.
+
+> 我知道我们需要一个质的飞跃。对于从 Angular 1 迁移到哪个框架我们深思熟虑。当然，我们有考虑过两位大佬：Angular 2 和 React。
 
 The massive infrastructure and ongoing product development requires a well-organized and quite big-sized team.
 
+庞大的基础设施和持续的产品开发需要一个组织良好且规模庞大的团队。
+
 > We have a collection of very different skillsets within our development team. Moreover, the team is fully distributed and international—we are all over the map. Any decision as big as leaping to another technology brings a lot of concerns.
+
+> 在我们的开发团队中，有非常不同的技术栈。此外，我们的团队是完全分布式和国际化的。任何像技术迁移一样重要的决定都会引起很多人的关注
 
 #### Solution
 
