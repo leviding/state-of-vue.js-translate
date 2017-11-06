@@ -4,7 +4,6 @@ A few years back, Monterail was a well-established develop-ment agency, renowned
 
 ## 序
 几年前，Monterail因其在Ruby和Rail上的专业建树，还是一家享有盛誉的软件开发商。不过现在看来，Monterail和她的产品似乎有点过时了。当我们用Ruby开发传统多页面应用程序，越来越意识到，随着技术的进步和发展，许多的好的开发实践和范式已经变得不那好了。因循守旧是无法满足市场需求的，在2011年，我们选择了Backbone.js作为我们的第一款js框架。我们一直都积极地关注这个快速变化的世界，较早地采用了Angular JS， 而且对其非常精通。如今，新一代的基于组件的开发框架里，我们团队已经研究了React(包括React Native),Angular(angular2及以上)和使用最广泛的-Vue.js
-
 ### Familiar Does Not Mean Better
 Before we started working with clients who requested an app written with Vue directly, we were talking to businesses who have never heard of it. Once they did, they were impressed with its openness and power, and wanted to include Vue in their technology stack.
 We feel that most companies which choose more well-known frameworks make their decisions without having all the relevant informa-tion and simply adopt something that sounds familiar. They’re usually unaware that somewhere out there, there’s a technology which combines the advantages of Angular and React and adds an additional layer of niceness on top of it.
@@ -24,10 +23,8 @@ The report you’re reading is yet another milestone in that mission. It was cre
 ### Contents of the Report
 ### 报告的内容
 The **State of Vue.js** report offers a business owners’ and developers’ perspective on Vue. We surveyed over than 1,100 specialists from 88 countries to find out their experiences with Vue, and what they like and dislike about it most. We dug even deeper, and interviewed six companies on what problems they wanted to solve with Vue.js. To give you an overview of its growth over the years, we described the story of Vue.js, also including a sneak peek of what’s coming next from Evan You, the creator of the framework himself.
-Enjoy the read,
-
+Enjoy the read,<br>
 **报告**展示了企业主和开发者是如何看待Vue的。我们调查了来自88个国家的1100多名行业专家，了解他们的对于Vue的使用体验，哪些特性是他们喜欢的，哪些是不喜欢的；继续深入，我们采访了6家公司，询问他们想用Vue.js解决哪些问题；另外，我们讲述了Vue.js的历史，包括框架的创建者尤雨溪对Vue.js未来的大致规划，让你对Vue的发展有一个全面的了解。
-
 ![](https://i.niupic.com/images/2017/10/31/fXsajR.png)
 
 We would not be able to pull this report off if it weren’t for many amazing people who supported us along the way. They all were a tremendous help, sharing their knowledge and experiences, just because they wanted to give back to the community they’re part of.
@@ -41,5 +38,4 @@ The case study part of the report would never come into existence if it weren’
 非常感谢Jacob Schatz, Sylvain Simao, Roman Kuba, Gilles Bertaux, Scott O’Brien, Erin Depew, Matt O’Connell和 Yuriy Nemtsov.没有你们花费时间分享他们的故事，报告中的学习案例就不会存在。<br>
 ### Contributors
 ### 主要贡献者
-
 ![](https://i.niupic.com/images/2017/10/31/gLIe1Z.png)
