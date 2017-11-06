@@ -1,11 +1,13 @@
 ## Preface
 
 A few years back, Monterail was a well-established develop-ment agency, renowned for its Ruby and Rails expertise. Now, from today’s perspective, such a label feels a bit odd. We started with traditional Ruby multi-page app development, but pretty soon it became obvious to us that many of the practices and patterns changed as technologies evolved. Backbone.js was our first foray into JS frameworks in 2011, undertaken since we couldn’t just stay inert if we wanted to meet the market needs. We have been actively monitoring this dynamically changing world, and along the way we early-adopt- ed Angular JS and became experts on it. With the advent of the latest generation of component-based frameworks, our team has embraced all the major players in the field, including React (along with React Native), Angular (2 and up), and—most extensively—Vue.js.
+
 ##序
 几年前，Monterail 因其在Ruby和Rail上的专业建树，还是一家享有盛誉的软件开发商。不过现在看来，Monterail和她的产品似乎有点过时了。当我们用Ruby开发传统多页面应用程序，越来越意识到，随着技术的进步和发展，许多的好的开发实践和范式已经变得不那好了。因循守旧是无法满足市场需求的，在2011年，我们选择了Backbone.js作为我们的第一款js框架。我们一直都积极地关注这个快速变化的世界，较早地采用了Angular JS， 而且对其非常精通。如今，新一代的基于组件的开发框架里，我们团队已经研究了React(包括React Native),Angular(angular2及以上)和使用最广泛的-Vue.js
 
 ### Familiar Does Not Mean Better
-###熟悉的不一定是好的
+
+### 熟悉的不一定是好的
 Before we started working with clients who requested an app written with Vue directly, we were talking to businesses who have never heard of it. Once they did, they were impressed with its openness and power, and wanted to include Vue in their technology stack.
 那些要求用Vue开发应用程序的客户在此之前，都没有听说过Vue。可当他们使用后，都对Vue的扩展性和能力留下深刻印象，并希望在他们技术堆栈中包含ue。
 
