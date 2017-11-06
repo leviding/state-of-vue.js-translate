@@ -27,6 +27,7 @@ The **State of Vue.js** report offers a business owners’ and developers’ per
 Enjoy the read,
 
 **报告**展示了企业主和开发者是如何看待Vue的。我们调查了来自88个国家的1100多名行业专家，了解他们的对于Vue的使用体验，哪些特性是他们喜欢的，哪些是不喜欢的；继续深入，我们采访了6家公司，询问他们想用Vue.js解决哪些问题；另外，我们讲述了Vue.js的历史，包括框架的创建者尤雨溪对Vue.js未来的大致规划，让你对Vue的发展有一个全面的了解。
+
 ![](https://i.niupic.com/images/2017/10/31/fXsajR.png)
 
 We would not be able to pull this report off if it weren’t for many amazing people who supported us along the way. They all were a tremendous help, sharing their knowledge and experiences, just because they wanted to give back to the community they’re part of.
@@ -40,4 +41,5 @@ The case study part of the report would never come into existence if it weren’
 非常感谢Jacob Schatz, Sylvain Simao, Roman Kuba, Gilles Bertaux, Scott O’Brien, Erin Depew, Matt O’Connell和 Yuriy Nemtsov.没有你们花费时间分享他们的故事，报告中的学习案例就不会存在。<br>
 ### Contributors
 ### 主要贡献者
+
 ![](https://i.niupic.com/images/2017/10/31/gLIe1Z.png)
