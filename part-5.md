@@ -1,4 +1,4 @@
-Scott### Chess.com
+### Chess.com
 
 Chess.com is the #1 destination for online chess. Every day more than a million games are played by chess players from all around the world and all skill levels. Chess.com is a fully remote team with 100 team members.
 
@@ -325,4 +325,4 @@ With Vue.js, the Clemenger team is able to tackle a wide range of different proj
 
 > We now have quite a few projects built upon Vue.js. Airbnb’s Until we all belong, a campaign for marriage equality in Australia, was recognized with a number of industry awards, including AWWWARDS and CSSDA. Another project—Meet Graham which introduce the only person designed to survive on our roads, Graham. Within the first week, the project recorded more than 10 millions page views and it got immersive recognition and media coverage. It was highly acclaimed and received numerous awards, including the Grand Prix at Cannes Lion 2017. One of our most recent project is Snickers Hungerithm, where we’ve decided to rewrite the campaign app using Vue.js for the global rollout. Hungerithm is a hunger-algorithm that monitors online mood using tweets. When anger goes up, Snickers prices goes down in real-time.
 
-> 我们现在有相当多的项目建立在 Vue.js 之上。“Airbnb’s Until we all belong”，一个澳大利亚的婚姻平等活动，已经获得了一些行业奖项，包括 AWWWARDS 和 CSSDA。另一个项目--Meet Graham which introduce the only person designed to survive on our roads, Graham。在第一周内，该项目记录了超过 1000 万的页面浏览量，并获得了公认和媒体报道。它备受好评，并获得了众多奖项，包括 2017 年戛纳国际电影节大奖。我们最近的一个项目是 Snickers Hungerithm，这次我们决定用 Vue 重写活动应用用于全球推广。Hungerithm 是饥饿识别算法，可以通过 tweet 来监控在线情绪。当饥饿度上升时，士力架的价格就会实时下降。
+> 我们现在有相当多的项目建立在 Vue.js 之上。“Airbnb’s Until we all belong”，一个澳大利亚的婚姻平等活动，已经获得了一些行业奖项，包括 AWWWARDS 和 CSSDA。另一个项目--Meet Graham which introduce the only person designed to survive on our roads, Graham。在第一周内，该项目记录了超过 1000 万的页面浏览量，并获得了身临其境的公认和媒体报道。它备受好评，并获得了众多奖项，包括 2017 年戛纳国际电影节大奖。我们最近的一个项目是 Snickers Hungerithm，这次我们决定用 Vue 重写活动应用用于全球推广。Hungerithm 是饥饿识别算法，可以通过 tweet 来监控在线情绪。当饥饿度上升时，士力架的价格就会实时下降。
