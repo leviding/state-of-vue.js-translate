@@ -324,7 +324,7 @@ ger. There’s caching and streaming built in. As a result, even
 without spending a lot of time optimizing, the performance is good
 on Behance Live, he says.
 
-> 我不敢说 Vue 能帮你做一些其他框架的做不到事情。但是，在 React 中，提升 SSR 的性能确实事件很难的事。在光纤重写（React v16）之前，一个具有巨大组件树的页面将阻塞主线程，反过来说，这就意味着如果需要100ms来渲染一个页面，那么 Node 服务器的所有其他客户端就只能等待。因此，我们需要增加单个服务器的进程数量或增加服务器数量来提高吞吐量。这很难维持，而且非常昂贵。Vue 的 SSR 情况就强大很多。Vue 有内置缓存和流式传输，因此即使不做大量优化，Behance Live 的性能也很好。
+> 我不敢说 Vue 能帮你做一些其他框架的做不到事情。但是，在 React 中，提升 SSR 的性能确实事件很难的事。在 Fiber 重写（React v16）之前，一个具有巨大组件树的页面将阻塞主线程，反过来说，这就意味着如果需要100ms来渲染一个页面，那么 Node 服务器的所有其他客户端就只能等待。因此，我们需要增加单个服务器的进程数量或增加服务器数量来提高吞吐量。这很难维持，而且非常昂贵。Vue 的 SSR 情况就强大很多。Vue 有内置缓存和流式传输，因此即使不做大量优化，Behance Live 的性能也很好。
 
 > Working with Vue.js definitely is different than with other frame-
 works. Somehow you just tend to enjoy your life more.
