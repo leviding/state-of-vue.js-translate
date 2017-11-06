@@ -36,7 +36,7 @@ We would not be able to pull this report off if it weren’t for many amazing pe
 Big thank you to Evan You, who was excited about the report from the very beginning and had our backs during the creation of this very piece of content. He also agreed to share invaluable insights about the future of Vue.js and supported our writing efforts.<br>
 感谢Evan You（尤雨溪）。他从一开始就对这篇报告抱以热情，也在创建报告过程的各个阶段支持我们。Evan You（尤雨溪），分享了对Vue.js的未来的看法，并支持我们的创作工作。<br>
 Evan, as well as Chris Fritz, Vue.js core member, were insanely helpful with analyzing the State of Vue.js survey results. Kudos for that. Because of our collaboration, we felt comfortable about the quality of the final product.<br>
-感谢Chris Fritz，Vue.js的核心成员！对我们分析调查结果给予了很大的帮助。点赞！因为有了这样的合作，我们对最终的报告的质量非常满意。
+感谢Chris Fritz，Vue.js的核心成员！对我们分析调查结果给予了很大的帮助。点赞！因为有了这样的合作，我们对最终的报告的质量非常满意。<br>
 The case study part of the report would never come into existence if it weren’t for all those who agreed to spend their time sharing their stories. The warmest thank yous to Jacob Schatz, Sylvain Simao, Roman Kuba, Gilles Bertaux, Scott O’Brien, Erin Depew, Matt O’Connell, and Yuriy Nemtsov.<br>
 非常感谢Jacob Schatz, Sylvain Simao, Roman Kuba, Gilles Bertaux, Scott O’Brien, Erin Depew, Matt O’Connell和 Yuriy Nemtsov.没有你们花费时间分享他们的故事，报告中的学习案例就不会存在。<br>
 ### Contributors
