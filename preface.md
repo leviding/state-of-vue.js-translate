@@ -18,20 +18,20 @@ the word about Vue. That’s how we ended up curating the weekly Vue-newsletter,
 当使用Vue后，我们能够更有效率地交付更好的产品，更好地推动我们的业务，使客户更加满意，我们相信:Vue值得关注并受到大家的喜爱。也就因为这样，我们决心开始向发者们和企业布道，把Vue传播到全世界；同样也是因为这样，我们策划了每周的Vue-newsletter,组织了全球第一次VueConf国际会议，创建了Vuelidate和Vue-mulitselect这样的Vue库。<br><br>
 The report you’re reading is yet another milestone in that mission. It was created for three primary reasons. One, to provide a reliable source of Vue.js business use cases so anyone can get a sneak peek at how other companies use Vue.js. Two, to reach more individuals who have never heard of Vue and provide them with good reasons to give the framework a closer look. Three, to never, ever again have to convince our clients that Vue.js is a ready-to-use solution and has everything we need to build all kinds of applications.
 <br>
-你即将阅读的这份报告我们是布道与宣传Vue的另一个里程碑。报告有三个主要目的。1.提供可信赖的Vue商业使用案例，让任何人都能够一窥其它公司对Vue的使用；2.让那些没有听说Vue的人了解Vue，并让他们有足够的理由来更加仔细了解这个框架；3.让我们不再费力地说服客户Vue.js已经是一个成熟的解决方案，可以帮我们构建各类应用。
+你即将阅读的这份报告我们是布道与宣传Vue的另一个里程碑。报告有三个主要目的。1.提供可信赖的Vue商业使用案例，让任何人都能够一窥其它公司对Vue的使用；2.让那些没有听说Vue的人了解Vue，并让他们有足够的理由来更加仔细了解这个框架；3.让我们不再费力地说服客户让他相信Vue.js已经是一个成熟的解决方案，可以帮我们构建各类应用。
 
 ### Contents of the Report
 ### 报告的内容
 The **State of Vue.js** report offers a business owners’ and developers’ perspective on Vue. We surveyed over than 1,100 specialists from 88 countries to find out their experiences with Vue, and what they like and dislike about it most. We dug even deeper, and interviewed six companies on what problems they wanted to solve with Vue.js. To give you an overview of its growth over the years, we described the story of Vue.js, also including a sneak peek of what’s coming next from Evan You, the creator of the framework himself.
 Enjoy the read,<br>
-**报告**展示了企业主和开发者是如何看待Vue的。我们调查了来自88个国家的1100多名行业专家，了解他们的对于Vue的使用体验，哪些特性是他们喜欢的，哪些是不喜欢的；继续深入，我们采访了6家公司，询问他们想用Vue.js解决哪些问题；另外，我们讲述了Vue.js的历史，包括框架的创建者尤雨溪对Vue.js未来的大致规划，让你对Vue的发展有一个全面的了解。
+**报告**展示了从企业主和开发者的角度是如何看待Vue的。我们调查了来自88个国家的1100多名行业专家，了解他们的对于Vue的使用体验，哪些特性是他们喜欢的，哪些是不喜欢的；继续深入，我们采访了6家公司，询问他们想用Vue.js解决哪些问题；另外，为了让读者对Vue的近几年的发展有一个全面的了解，我们讲述了Vue.js的历史，以及框架的创建者尤雨溪对Vue.js未来的想法。
 ![](https://i.niupic.com/images/2017/10/31/fXsajR.png)
 
 We would not be able to pull this report off if it weren’t for many amazing people who supported us along the way. They all were a tremendous help, sharing their knowledge and experiences, just because they wanted to give back to the community they’re part of.
 <br>
 报告的顺利完成得到了许多人的支持。他们分享他们的知识和经验，给予了我们莫大的帮助，仅仅因为他们想为社区贡献一份属于自己的力量。<br><br>
 Big thank you to Evan You, who was excited about the report from the very beginning and had our backs during the creation of this very piece of content. He also agreed to share invaluable insights about the future of Vue.js and supported our writing efforts.<br>
-感谢Evan You（尤雨溪）。他从一开始就对这篇报告抱以热情，也在创建报告过程的各个阶段支持我们。Evan You（尤雨溪），分享了对Vue.js的未来的看法，并支持我们的创作工作。<br><br>
+感谢Evan You（尤雨溪）。他从一开始就对这篇报告抱以热情，并在创建报告过程的各个阶段支持我们。同时，Evan You（尤雨溪）还分享了对Vue.js未来和后期规划相关的宝贵看法，并亲自参与撰写报告。<br><br>。
 Evan, as well as Chris Fritz, Vue.js core member, were insanely helpful with analyzing the State of Vue.js survey results. Kudos for that. Because of our collaboration, we felt comfortable about the quality of the final product.<br>
 感谢Chris Fritz，Vue.js的核心成员！对我们分析调查结果给予了很大的帮助。点赞！因为有了这样的合作，我们对最终的报告的质量非常满意。<br><br>
 The case study part of the report would never come into existence if it weren’t for all those who agreed to spend their time sharing their stories. The warmest thank yous to Jacob Schatz, Sylvain Simao, Roman Kuba, Gilles Bertaux, Scott O’Brien, Erin Depew, Matt O’Connell, and Yuriy Nemtsov.<br>
