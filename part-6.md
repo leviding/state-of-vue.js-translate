@@ -66,11 +66,11 @@ Roman 决定用他的知识和调查结果来说服他们转移到 Vue.js。
 
 在 Codeship 直接投入开发之前，他们需要一个概念验证。
 
-> 当时我对 Vue也没有太多的经验，我对框架中涉及到的技术了解十分有限。但是，从 Vue 开始似乎毫无费力，我很快就意识到这是一个针对困扰我们大多数问题的解决方案。只用了一个晚上左右，我就用 Vue 重构了一个关键部分并试图使用大量的 Loglines 作为概念验证。然后我对所有的代码做了CPU性能分析，这件事立即向我的团队证明了 Vue.js 已经给我们带来了巨大的性能提升。我们将渲染时间从30秒缩短到了7秒左右。Roman 回忆到。
+> 当时我对 Vue也没有太多的经验，我对框架中涉及到的技术了解十分有限。但是，从 Vue 开始似乎毫无费力，我很快就意识到这是一个针对困扰我们大多数问题的解决方案。只用了一个晚上左右，我就用 Vue 重构了一个关键部分并试图使用大量的 Loglines 作为概念验证。
 
 ![](https://ooo.0o0.ooo/2017/11/03/59fc15add61e8.png)
 
-
+然后我对所有的代码做了CPU性能分析，这件事立即向我的团队证明了 Vue.js 已经给我们带来了巨大的性能提升。我们将渲染时间从30秒缩短到了7秒左右。Roman 回忆到。
 
 概念验证在手，Roman 和它的员工终于可以开始向 Vue 过渡了。
 
@@ -104,107 +104,107 @@ Vue.js 帮助 Codeship 组织他们的代码并优化用户体验。
 
 ### GitLab
 
-GitLab is an open core, integrated solution for the entire software development lifecycle.
+GitLab 是一个集代码托管,测试,部署于一体的开源git仓库管理软件。
 
-> Every framework will struggle in certain areas. With Vue.js, every struggle will be your own, not Vue’s. It’s just a perfect framework.
+> 每一个框架都有自己的适用领域，使用 Vue 的时候，每一次斗争都是你自己的，而不是 Vue 的。它只是一个完美的框架。
 >
-> From Jacob Schatz, Frontend Lead at GitLab
+> 来自 Jacob Schatz, GitLab 前端 Leader
 
-**CHALLENGE**
+**挑战**
 
-Difficulty with implementing complex features and maintain cur- rent ones.
-Large Rails + jQuery application that was hard to scale.
-Insufficient app speed.
+实现复杂的功能以及维护现有的功能会有困难。
+大型的 Rails + jQuery 应用难以扩展。
+应用速度不足。
 
-**SOLUTION**
+**解决办法**
 
-Gradually introducing Vue.js to GitLab to be used along with jQuery.
-Using Vue.js for all applicable new features and migrating old ones. As needed, without doing a complete rewrite or refactor.
-Using webpack to create optimized bundles.
+逐渐将 Vue.js 引入到 GitLab 中，以便与 jQuery 一起使用。
+把 Vue.js 用在合适的新的功能上以及迁移旧的功能。如无必要，不做完整的重写或者重构。
+使用 webpack 创建优化后的代码包。
 
-**OUTCOME**
+**产出**
 
-Easier maintenance of a unified style guide within the whole codebase and code architecture.
-Highly improved time and cost efficiency.
-Improved user experience leading to better sales thanks to the ability to implement more sophisticated features.
-Improved page load times by reducing asset size.
+整个代码库和代码结构体系中的统一的样式指南变得更加容易维护。
+极大改善了时间消耗以及编码效率。
+因为能够实现更复杂的功能，改善了用户体验，从而导致了更好的销售业绩。
+通过减少包的体积使页面的加载时间得到改善。
 
-#### Challenge
+#### 挑战
 
-After six years on the market, GitLab has established itself as a wellknown solution for developers hailing from thousands of companies. Only two years back, most of its code was still written in Rails and jQuery.
+经过六年的市场推广，GitLab 已经成为上千家公司开发人员心目中知名的解决方案提供商。但是在两年前，公司内部的大部分代码仍然是用 Rails 和 jQuery 编写的。
 
-By 2015, the company had no frontend developers on staff and that set- up worked really well. Rails devs were writing frontend code and doing a fantastic job. Yet, the company’s plans for the future required a new solution.
+直到 2015 年，公司还没有专职前端的开发人员，而且整个体系运转得十分良好。Rails 开发人员兼职写前端代码而且做的很棒。然而，公司未来的计划需要一个新的解决方案。
 
-> When I came in I saw that we have these individual jQuery things which were very simple, but for more complex things that we wanted to do, the really big ideas that we wanted to achieve, we would need something else, Jacob explains,
+> 当我刚进公司的时候，我看到我们有一些比较简单的项目是只用 jQuery 实现的。但如果我们想要做一些更复杂的东西，或者说我们想要实现一些比较大的点子，我们需要一些别的东西。Jacob 解释道，
 
 ![](https://ooo.0o0.ooo/2017/11/03/59fc19771d8ba.png)
 
-> jQuery is fantastic, but it creates potentially more bugs as you’re responsible for literally every state change.
+> jQuery 很棒，但是因为你要负责代码内的每一个状态的变化，这样容易导致它造成更多的 bug。
 
-To meet their goals, GitLab started looking for a new solution.
+为了达成目标，GitLab 开始寻找一个新的解决方案。
 
-> We checked Backbone, which I had previous experience with, we obviously looked at React, but also Knockout, Ember, and all those different frameworks. I wanted to do a small project using each. By then I didn’t even bring up Vue.js at all! Jacob recalls.
+> 因为我之前有使用 Backbone 的经验，所以我们考虑过它。我们也仔细考虑过 React，但是也淘汰了。还有 Embar 和其他的不同的框架。我甚至想过用每个框架都做一个小项目出来，那时候我们甚至还没想过 Vue.js！Jacob 回忆道。
 
-Testing all these frameworks helped Jacob identify their advantages and drawbacks.
+测试所有的这些框架帮助 Jacob 认识到了它们的优缺点。
 
-> Backbone has a lot of tools to get stuff done and a good structure, but you’re still in the same boat as with jQuery. With React it scared me a bit to get involved with a framework that depended on a big company. Also, it didn’t seem to scale well for me. I really liked Mi- thril! The only problem is that it’s not pretty to write at all. If they could put a couple of extra layers of niceness on it, I’m sure people would start adopting it.
+> Backbone 有很好的结构，它有很多小工具可以完成任务。但是你用起来其实和 jQuery 没什么太大区别。而我对使用 React 这种依赖大公司的框架有些恐惧，因此它在我看来也不合格。我非常喜欢 Mithril！唯一的问题是它写起来非常困难。如果他们可以在这上面添加一些额外的好处，我相信人们会开始使用它的。
 
-Another big challenge was to make a mature switch to a new technology. It was a bit risky, and thus had to be well executed.
+另外一个很大的挑战是做一个成熟的对于新技术的切换方案。这么做有很大的风险，因此必须良好地切换它。
 
-> In GitLab, we have tons of code. When I joined, there were already eight thousand lines of JavaScript in our codebase. I obviously didn’t want to do something that would be a complete rewrite. We actually still have some chunks of jQuery here and there.
+> 在 GitLab，我们有成吨的代码。当我加入的时候，我们的代码库已经有 8000 行的 JavaScript代码了。很明显，我完全不想去彻底重写这玩意。实际上我们的代码库中还是有些地方是用 jQuery 写的。
 
-#### Solution
+#### 解决方案
 
-After testing a few frameworks, Jacob still didn’t have a perfect match on his hands. It was only after he wrote a pretty big project with an early version of Vue.js he realized that he may have struck gold.
+测试了一些框架之后，Jacob 在他手头的框架里还是找不到一个完美匹配的。只有在他用 Vue.js 的早期版本写了一个很大的项目之后，他才意识到自己可能找到黄金了。
 
-> When I had this one project together, I knew it was something we could write a lot of code with. It wasn’t just about writing a simple to-do app. When you get to work on this large application— that’s where all problems actually start, Jacob explains.
+> 当我把这个项目放在一起的时候，我就知道我们可以用这个框架写很多代码。这不仅仅是写一个简单的 todo 应用。所有问题都会在你开始处理这个大型的应用的时候真正开始，Jacob 解释道。
 
-Before GitLab started diving into Vue.js, they needed a proof of concept.
+在 GitLab 开始切换到 Vue.js 之前，他们需要做一次概念验证。
 
-> Phil Hughes [Sr. Frontend Engineer at GitLab], created a proof of concept where we took a major feature that we were doing—issue boards. Phil wrote that using Vue.js and it was immediately apparent that we got a tremendous amount done in a small amount of time! Without all those bugs which typically came with jQuery, Jacob says.
+> Phil Hughes [Sr. GitLab 前端工程师],创建一个概念验证，我们在那里采取了一个我们正在做的主要功能 —— issue boards 。Phil 用 Vue.js 写这个，显而易见，我们在很短的时间内完成了大量的工作！没有之前 jQuery 带来的各种 bug。Jacob 说道。
 
 ![](https://ooo.0o0.ooo/2017/11/03/59fc19cb934bd.png)
 
-Vue.js supports the approach evangelized by Jacob within his team—it- erate small and create proofs of concept.
+Vue.js 支持 Jacob 在他的团队中推广自己的方法--小范围迭代，并建立概念验证。
 
-> We constantly have 4 or 5 proof of concepts going on, he says.
+> 他说，我们总是有四到五个概念验证。
 
-Using the same approach, GitLab introduced webpack to be able to split the assets into smaller chunks downloaded by the browser and thus improving the app load time.
+通过这种方法, GitLab 引入了 webpack ，它能够将资源拆分成更小的块供浏览器下载，从而缩短了应用的加载时间。
 
-> We created a small proof of concept to see if webpack was even feasible. When we found out that it was, we went the whole way and end- ed up writing and entire Trello application in Vue. And replacing the billion-dollar industry in one month. Good job, Phil! Jacob laughs.
+> 我们创建了一个小的概念验证来判断 webpack 是否可行，当我们发现这是可行的时候，我们走完了整个流程并结束了 Vue 和整个 trello 应用的开发。并在一个月内取代了数十亿美元的产业，干得好，Phil！Jacob 笑了。
 
-One feature of Vue.js turned out to be the most useful out of all—reac- tive templates.
+响应式模板(reactive templates) 这个功能是 Vue.js 中最有用的。
 
-> It’s a very, very simple thing that Vue does. One of the first things I programmed in GitLab was to take the issue page, and when you clicked close, you had to refresh the page. And now when you click close, it just changes the status of the merge button, changes the status of the button below. It does all those things automatically. In jQuery, there was a ton of code. At least 30-40 lines to make sure that the buttons were in the right state. With Vue.js it was literally one line of code. The view always reflects the current situation, Jacob explains.
+> 这是 Vue 所做的非常非常简单的一件事情。 我在 GitLab 中编程的第一件事就是进入 issue 页面，在之前，当你点击 close 的时候，你必须刷新页面。 而现再，它改变了合并按钮（merge button）的状态，它会自动改变下面所有按钮的状态。在 jQuery 中，我们需要写至少三四十行的代码来保证这个按钮的状态是正确的。在 Vue.js 中只需要一行代码。视图总是会反映出当前的情况， Jacob 解释道。
 
-> And now that we use Vuex, it can be done better than before. The state management stuff made a HUGE difference.
+> 而且现在我们使用 Vuex，它比之前做的更好。状态管理工作有了很大的不同
 
-With all its advantages, Vue turned out to have one drawback.
+虽然 Vue 有很多优点，但是它也有一个缺点。
 
-> Currently, there are 15 developers at GitLab. With frameworks like Angular you kind of work in the same way together. Vue is much more open, and so we had to create documents explaining how we write in Vue.js. What patterns you’re going to follow. Still, it’s something that we’ve solved. The openness of Vue is also its beauty, but you need to make sure everyone’s on the same page.
+> 目前 GitLab 有 15 名开发者。像 Angular 这样的框架，大家可以在一起用同样的方式工作。而 Vue 比它开放很多，所以我们需要建立文档来告诉大家在 Vue.js 中写代码时该遵循什么样的模式。不过这是我们已经解决了的问题，Vue的开放性也是它的魅力所在，但是你需要保证所有人都在同一个层面上。
 
 **[VUE.JS STYLE GUIDE BY GITLAB](https://docs.gitlab.com/ee/development/fe_guide/style_guide_js.html)
 
-#### Outcome
+#### 产出
 
-> Scaling up the application and introducing new features would be possible with jQuery, but it would be much harder to maintain.
+> 使用 jQuery 来扩展应用和引入新功能其实是可以的，不过维护起来就要困难的多。
 
-> What we do right now would require a tremendous amount of code and a lot more organization. Vue has a lot of these problems solved, Jacob says.
+> 我们现在正在做的事情需要非常大的代码量以及很多的组织。针对这些问题 Vue 解决了很多。Jacob 说。
 
-> With something as reactive as Vue.js, you give it a variable, and it’s going to bind it into the DOM directly and take care of everything else. Especially in Vue 2.0 with its virtual DOM. We wanted to increase our performance, and it was one way to simplify our workflow.
+> 像 Vue.js 中的响应式这种, 你给它一个变量，它会直接绑定到 DOM 上并处理好所有其他的事情，尤其是 2.0 版本中的虚拟 DOM，它提供给我们一个简化工作流程的办法去改善性能。
 
-Thanks to Vue.js, GitLab can iterate quickly and improve their usability.
+GitLab 之所以可以快速迭代并提高代码的可用性，这都要归功于 Vue.js。
 
-> We can finally focus on usability and UX, where before we were fo- cusing on little tiny things and code. Now we think about the much bigger picture.
+> 在之前我们需要专注一些小的细节和代码，现在我们终于可以专注于代码可用性以及用户体验。我们可以思考更大的图景。
 
-Vue.js is so open and accessible that it’s pure pleasure for GitLab frontend developers to deal with it on a daily basis.
+Vue.js 是如此的开放和易上手，GitLab 的前端开发人员每天都能够处理它。
 
-> Vue, in contrast to other tools, does not follow any strict guidelines. It’s open and that’s fantastic. I like everything what it does right now. Of course, it’s got the most amazing documentation you can imagine. It’s really straightforward to get started with it and onboard new people.
+> 和其他工具相比，Vue 不用遵循任何严格的知道规则。它是开放的，这点实在太赞了。我喜欢它现在做的一切。当然它有着你能想象到的最神奇的文档。它对于新人非常直观和友好。
 
-Vue.js helped GitLab improve time and cost efficiency.
+Vue.js 帮助 GitLab 改善了时间和成本效益
 
-> We know for a fact that our development is faster. That’s an easy thing to see. From the sales perspective, those nicer UX features we’re creating bring people to GitLab and make it a much more desir- able product. People love the new things we put in there with Vue.js. We increase the user experience, and so we increase sales.
+> 大家知道事实上我们的发展速度更快了。这很容易看出来。从销售角度来看，我们正在创造的更良好的用户体验功能吸引人们使用 GitLab ，并使它成为更加令人期待的产品。人们喜欢我们用 Vue.js 开发的新功能。因为我们改善了用户体验，也间接增加了销售量。
 
-Jacob agrees that they will definitely use Vue.js in the future.
+Jacob 认为他们将来肯定会再使用 Vue.js。
 
-> We’re all set! We have other challenges now. Currently, we’re trying to improve our process and speed up our testing. Vue.js solved so many problems for us that we’re definitely keeping it for the future.
+> 我们都准备好了！现在我们还有其他的挑战。目前我们正在努力改进我们的流程并加快测试的速度。 Vue.js 为我们解决了如此多的问题以至于我们肯定在将来持续地使用它。
