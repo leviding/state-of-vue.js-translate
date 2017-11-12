@@ -39,7 +39,7 @@ from jQuery to Vue.js and describes the main challenges they encoun-
 tered along the way. Their focus on better UX resulted in a more desirable
 product and therefore in increased sales.
 
-GitLab的前端 Leader Jacob Schatz 解释了为什么他们决定从 jQuery 技术转移到 Vue.js，同时分享了他们遇到的主要挑战。他们专注于更好的 UX （用户体验），这使得他们的产品更为理想，销量也因此提升了。
+GitLab 的前端 Leader Jacob Schatz 解释了为什么他们决定从 jQuery 技术转移到 Vue.js，同时分享了他们遇到的主要挑战。他们专注于更好的 UX （用户体验），这使得他们的产品更为理想，销量也因此提升了。
 
 Chess.com had to deal with hard-to-maintain legacy code in Angular 1.
 With Vue.js, they found it much easier to collaborate within their fully
@@ -152,7 +152,7 @@ pile, and execute it, and only then display that project to the user.
 We were also looking specifically for a framework with server-side
 rendering capabilities, he says.
 
-> Mustache 对我们特别重要，因为当时我们在前后端使用了相同的模板（现在多数 behance.net 的项目中依然如此）。利用 Mustache 将首屏快速提供给浏览器对于我们和用户都是非常重要的。如果我们等待浏览器下载JS，解析，编译和执行它，然后才将页面显示给用户，要想达到与使用 Mustache 时同样的速度是非常困难的。我们也特意寻找过具有服务器端渲染功能的框架。
+> Mustache 对我们特别重要，因为当时我们在前后端使用了相同的模板（现在多数 behance.net 的项目中依然如此）。利用 Mustache 将首屏快速提供给浏览器对于我们和用户都是非常重要的。如果我们等待浏览器下载 JS，解析，编译和执行它，然后才将页面显示给用户，要想达到与使用 Mustache 时同样的速度是非常困难的。我们也特意寻找过具有服务器端渲染功能的框架。
 
 For the Behance team, the primary goal was to build a codebase
 that’s easier to work with and a strong foundation for new features to be
@@ -167,7 +167,7 @@ to form new components. That trade-off between refactoring older
 code to Vue while still maintaining the rest of the site and shipping
 features has definitely been challenging, Erin elaborates.
 
-我认为我们面临的最大挑战就是，由于我们决定不拆分我们的代码库并从一个新平台开始，我们不得不花费大量的时间抽离旧的代码来形成新的组件。Erin 补充说，既要用 Vue 重构旧代码并保证网站其余功能正常运行，又要实现新功能，如何权衡这两件事确实是个挑战。
+> 我认为我们面临的最大挑战就是，由于我们决定不拆分我们的代码库并从一个新平台开始，我们不得不花费大量的时间抽离旧的代码来形成新的组件。Erin 补充说，既要用 Vue 重构旧代码并保证网站其余功能正常运行，又要实现新功能，如何权衡这两件事确实是个挑战。
 
 > We also take performance very seriously at Behance, so we have been
 very careful to make sure that we can keep our performance metrics
@@ -178,7 +178,7 @@ while converting over the codebase.
 For Matt and his team, user experience was also an important factor,
 one leaving much room for improvement.
 
-> 对于 Matt 和他的团队来说，用户体验也是很重要的一点，并且有很大的改进空间。
+对于 Matt 和他的团队来说，用户体验也是很重要的一点，并且有很大的改进空间。
 
 > Regarding Adobe Portfolio, we started with nbd.js, which is a cus-
 tom-rolled version of Backbone that was originally extracted from
@@ -214,7 +214,7 @@ the tests, and to style the components relatively safely. Only then
 did we feel comfortable enough to take on a larger project. That was
 Behance Live, Yuriy recalls.
 
-> 在我们切换到 Vue 之前，绝大多数的团队都在这里。一旦我们决定采用vue，我们需要一些小项目来练手。对我们来说，只需要非常小，只有前端功能且不公开访问的站点即可，就像我们的样式指南。这样，我们可以学习如何使用Vue，如何编写测试，并相对安全地对组件进行风格化。只有这样，我们才能安心投入更大的项目。我们于是就用 Vue 开始打造 Behance Live，Yuriy 回忆说。
+> 在我们切换到 Vue 之前，绝大多数的团队都在这里。一旦我们决定采用 Vue，我们需要一些小项目来练手。对我们来说，只需要非常小，只有前端功能且不公开访问的站点即可，就像我们的样式指南。这样，我们可以学习如何使用 Vue，如何编写测试，并相对安全地对组件进行风格化。只有这样，我们才能安心投入更大的项目。我们于是就用 Vue 开始打造 Behance Live，Yuriy 回忆说。
 
 ![1509617601(1).jpg](https://i.loli.net/2017/11/02/59faefebec94a.jpg)
 
@@ -260,7 +260,7 @@ casts events up to their parents).
 Using Vue.js for almost a year now, Matt and his team managed to build
 or rebuild a bunch of features.
 
-使用 Vue.js 将近1年后，Matt 和他的团队终于构建和重构了一堆功能。
+使用 Vue.js 将近 1 年后，Matt 和他的团队终于构建和重构了一堆功能。
 
 > At Adobe Portfolio, we started with the Manage Content feature—
 the area where users can reorder, add, delete, and perform various
@@ -324,7 +324,7 @@ ger. There’s caching and streaming built in. As a result, even
 without spending a lot of time optimizing, the performance is good
 on Behance Live, he says.
 
-> 我不敢说 Vue 能帮你做一些其他的框架做不到事情。但是，使用 React 的话，提升 SSR 的性能确实事件很难的事。在使用 Fiber 重写（React v16）之前，一个具有巨大组件树的页面将阻塞主线程，反过来说，这就意味着如果需要100ms来渲染一个页面，那么 Node 服务器的所有其他客户端就只能等待。因此，我们需要增加单个服务器的进程数量或增加服务器数量来提高吞吐量。这很难维持，而且非常昂贵。Vue 的 SSR 情况就强大很多。Vue 有内置缓存和流式传输，因此即使不做大量优化，Behance Live 的性能也很好。
+> 我不敢说 Vue 能帮你做一些其他的框架做不到事情。但是，使用 React 的话，提升 SSR 的性能确实事件很难的事。在使用 Fiber 重写（React v16）之前，一个具有巨大组件树的页面将阻塞主线程，反过来说，这就意味着如果需要 100ms 来渲染一个页面，那么 Node 服务器的所有其他客户端就只能等待。因此，我们需要增加单个服务器的进程数量或增加服务器数量来提高吞吐量。这很难维持，而且非常昂贵。Vue 的 SSR 情况就强大很多。Vue 有内置缓存和流式传输，因此即使不做大量优化，Behance Live 的性能也很好。
 
 > Working with Vue.js definitely is different than with other frame-
 works. Somehow you just tend to enjoy your life more.
