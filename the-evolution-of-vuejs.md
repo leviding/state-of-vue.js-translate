@@ -1,70 +1,65 @@
-## The Evolution of Vue.js
+## Vue.js 的演变
 
-Did you know that when Vue was first released, it wasn’t even called “Vue”? The first commit, is dated back to June 27, 2013 and Vue was still called “Seed” at the time. That’s over 4 years
-ago today. The first name stuck for nearly six months before it was eventually changed to Vue in early December of 2013. The first public release(0.8.0), however, was unveiled only in February of 2014. At the time, Vue was a library that only focused on the View layer of the MVC architectural paradigm.
+你知道 Vue 第一次发布是在什么时候吗? 最初它甚至并不叫「Vue」。作者的首次提交是在 2013 年 06 月 27 日，那时项目叫「Seed」，转瞬间，Vue.js 已经四岁了。「Seed」这个名字用了六个月，在 2013 年 12 月初，作者把它正式更名为「Vue」 但是，Vue 的第一个对外的版本(0.8.0)在 2014 年 2 月 才发布，在那时候，Vue.js 还只关注MVC架构中视图（View）部分。
 
-There were several important aspects of Vue that made it “click” with developers. The template syntax followed a style similar to AngularJS and a component-based architecture introduced by React, thus creating a smooth bridge between the two mindsets. I like to think about
-Vue as the lovely child that got the best parts of its parents, AngularJS and React, with a constant emphasis on developer experience and approachability.
+Vue 拥有的一些特性，让开发很容易接受它 Vue 的模板语法风格很像 AngularJS，也有被 React 引入的基于组件的架构 这样，开发者可以从二者平滑地过渡到 Vue。我会把 Vue 想象为一个继承了父母（AngularJS，React）优秀基因的孩子，它自己也不断地提升开发者的使用体验。
 
-The JavaScript community became increasingly interested in Vue, but it was a year later, when the Laravel community (gathered around this popular PHP framework) first discovered it that Vue really took off. A couple of months later, the long-awaited 1.0 version was finally released. This was a groundbreaking step for the library.
+一年之后，JS 社区才对 Vue 产生兴趣。当时，Laravel（一款流行的PHP框架）社区首先开始使用 Vue。 之后 Vue 开始变得流行了。几个月之后，期盼已久的 1.0 版本终于发布了，对于 Vue 来说，这是具有里程碑意义的一次版本发布。
 
-In the meantime, the community saw the release of vue-router(August 18th, 2015), vuex (November 28th, 2015) and vue-cli (December 27th, 2015). These libraries marked the transformation of Vue from a View-layer library into what we today call the Progressive Framework.
+与此同时，vue-router（2015-08-18）、vuex（2015-11-28）、vue-cli（2015-12-27）相继发布 这意味着 Vue.js 从一个视图层库发展为我们现在所说的渐进式框架。
 
-Last year, we’ve seen the release of the much-anticipated version 2.0—a complete rewrite of the framework which introduced several new concepts like the Virtual DOM and Server-Side Render-
-ing capabilities. However, the API remained virtually unchanged, so the migration was smooth. The official vue-migration-helper tool helped the process, too.
+去年，备受期待的 2.0-alpha 版本发布，它被彻底重写了，同时引入了一些新的概念，比如: Virtual DOM 和服务端渲染。但是，API 基本没有变化，因此从 1.0 到 2.0 版本可以平滑迁移 使用官方出品的[迁移工具](https://githubcom/vuejs/vue-migration-helper)会帮助你完成迁移过程。
 
-### The Community
+### 社区
 
-Fast forward one year and the still-thriving community has made Vue.js one of the top 3 most popular JavaScript frontend frameworks to date. And it doesn’t look like it’s going to stop there.
+在接近一年的时间里，至今依然活跃的社区促使 Vue.js 成为了 JavaScript 三大顶级框架之一，而且看起来并不会止步不前。
 
-People fell in love with Vue. But rather than trust in our emotional assessment, take a look at the numbers—Vue was the most starred project on GitHub in 2016. Talk about developer enthusiasm!
+人们非常喜爱 Vue。不要相信我们带有情感色彩的评估，看看这个数字：Vue 是 2016 年 GitHub 上 star 数最多的框架。
 
-The community interest is incredibly strong—when we launched the [Vue Newsletter](http://vue-newsletter.com/), hundreds of people subscribed in a matter of minutes. The never-ending stream of email notifications made us feel like Instagram stars. The first issue of the newsletter went to 759 subscribers. Sixty-three weekly issues later, our audience has grown to nearly 6, subscribers. Each new issue is harder to prepare because of how much
-new Vue-related content surfaces basically every week now. High-quality tutorials, insightful articles, and all the libraries I could ever think of now tend to show up daily. It’s insane! And that’s not all—the Vue community is bolstered with a [thriving forum](https://forum.vuejs.org/) and a [Discord channel](https://chat.vuejs.org/), with thousands of developers active on both of these outlets each day.
+社区的兴趣是非常浓厚的，当我们启动 [Vue Newsletter](http://vue-newslettercom/) 项目时，在几分钟内，便有数百人订阅了。一直没间断的邮件通知，让我们感觉自己就像 Instagram 的明星一样（备受关注）。Newsletter 的第一期有 759 人订阅，截止到目前为止，我们已经出了 63 期了，订阅人数快增长到 6000 了。每一期都是很难准备的，因为每周都产生很多和 Vue 相关的内容 每天都有高质量的教程、见解深刻的文章以及我能想到的库翻陈出新。有点疯狂。这还不是全部，Vue 社区有一个[活跃的论坛](https://forumvuejsorg/)和一个[聊天频道](https://chatvuejsorg/)，每天都有成百上千的开发者活跃在上面。
 
-Additionally, we can see that a growing number of companies across the globe are increasingly betting on Vue, following the rapidly growing interest of their developers. Just look at all the job offers published at [vuejobs.com](http://vuejobs.com/).
+此外，我们可以发现，随着开发者对 Vue 的兴趣逐渐浓厚，全球很多公司开始关注 Vue。点击 [vuejobscom](http://vuejobscom/)，看看他们发布的的职位吧。
 
-### The Ecosystem
+### 生态
 
-I think it’s worth mentioning that apart from the community projects, the Vue Core Team also maintains several official libraries, such as vue-router, vuex (state management), vue-rx, and vuex-observable (for RxJS), as well as tools like vue-cli, vue-server-renderer, vue-loader, vetur, and vue-migration-helper. Why is this important, you ask? Because it allows you to progressively opt-in to use other core libraries that transform Vue into a full-fledged framework like Angular or Ember, with the guarantee that it will work seamlessly. However, you can always switch parts of it for other, unofficial solutions, if that is what your project requires. Another good thing about the official supporting libraries is that they always represent the highest quality and offer longterm support and compatibility with Vue itself.
+值得一提的是，除了社区项目之外，Vue 核心开发团队也维护了一些官方库，比如 vue-router、vue-loader、vuex（状态管理库）、vue-rx 以及针对 RxJS 开发的vuex-observable 还有一些工具库，比如 vue-cli、vue-server-renderer、vue-loader、vetur、vue-migration-helper。它们为什么重要? 因为这样，你就可以渐进式地使用其他核心库，这些库可以完美配合，使得Vue转变为一个像 Angular、Ember 一样完善的框架。当然，如果你的项目需要，你可以随时将其中的一部分切换为其它非官方的解决方案。官方库的另外一个好处是它们往往代表着高质量、长期支持以及与 Vue 良好的兼容性。
 
-As one would expect, a massive and highly involved community such as Vue’s comes with a significant number of community projects. And not just small, focused libraries, we’re talking large-scale projects here. For example, [Nuxt.js](https://nuxtjs.org) is a highly-opinionated framework built on top of Vue that combines several smaller tools as well as patterns that make it incredibly easy to develop applications with SSR support.
+正如大家所料，像 Vue 社区这种大型而且参与感高的社区，会出现大量社区项目 不仅仅是小型项目、解决单一问题的库，我们现在来谈谈大型项目 举个例子，[Nuxtjs](https://nuxtjsorg) 是一个很有想法的基于 Vue 的框架，它采用了一些小工具库以及设计模式，这使得开发需要服务端渲染的应用变得极其简单。
 
-There’s the [Quasar Framework](http://quasar-framework.org), which helps with the development
-of hybrid mobile and desktop applications. There are also several very popular UI frameworks like [Element-UI](http://element.eleme.io/#/en-US) and [Vuetify](https://vuetifyjs.com/) that will give you dozens of unified UI components to bootstrap your application. Vue also gets more and more support from mobile development frameworks like [OnsenUI](https://onsen.io/vue/) by Monaca and [NativeScript](https://www.nativescript.org/blog/a-new-vue-for-nativescript).
+[Quasar 框架](http://quasar-frameworkorg)可以帮助开发复杂的移动和桌面应用 还有其他流行的UI框架，比如：[Element-UI](http://elementelemeio/#/en-US) 和 [Vuetify](https://vuetifyjscom/)，这些框架提供了几十个风格统一的 UI 组件来帮助你开发 Vue。在移动端开发方面，得到了 [OnsenUI](https://onsenio/vue/) （由Monaca开发） 和 [NativeScript](https://wwwnativescriptorg/blog/a-new-vue-for-nativescript) 的大力支持
 
-From my perspective as a Web applications developer, I can assure you — it already has everything your app will probably need. Each week I see more and more libraries being published, to the point that it’s impossible to keep track of all of them. Many of those libraries can be found here: [A list of awesome things related to Vue.js](https://github.com/vuejs/awesome-vue). Additionally, the core team manages a list of recommended libraries at [curated.vuejs.org](http://curated.vuejs.org/) for popular tasks like validations, i18n, AJAX requests, to help with the fatigue of picking the right tool.
 
-### The Backing
+从我作为一个 Web 开发者的角度来看，我可以向你保证 Vue 已经有你开发应用所需的一切了。每周，我都见证越来越多的库发布，以至于没有办法追踪所有的库。你可以在 [awesome-vue](https://githubcom/vuejs/这里) 找到这些库。此外，Vue 核心开发团队在 [curatedvuejsorg](http://curatedvuejsorg/) 管理了一些推荐的库，这些库主要用于表单验证、国际化、AJAX 等常见的任务，避免开发者在选择合适的库出现选择恐惧症。
 
-Many people point out that Vue is not backed by any large company in the same way Angular or React are, and they act like it’s a bad thing. I dare to disagree. Vue truly embodies the spirit of open source, like jQuery, Babel or webpack do, and those are the most reliable tools
-in the JavaScript world. There is a significant advantage in that. The project doesn’t have to follow the needs of a particular company and can instead focus on what the community needs.
+### 支持
 
-And Vue does deliver what the community needs the most. When speaking about the support for code splitting, Sean Larkin, a core team member of webpack, described Vue as:
+许多人指出，和 Angular 或 React 不同的是，Vue 背后没有大公司的支持，而且看起来这也不太乐观 我绝不同意。Vue 和 jQuery、Babel、webpack 以及 JS 世界中其它可被信赖的工具一样体现了真正的开源精神。 这样有一个明显的优势：这些项目不用去满足这些公司的特定需求，取而代之的是更专注社区的需求。
 
-> The first framework to craft a Developer Experience with webpack in mind.
+Vue 实现了很多社区最需要的功能 说起 code spliting，webpack 核心开发团队成员 Sean Larkin，这样评价 Vue：
 
-But the focus on developer experience goes far beyond webpack and is present in every aspect of the library, starting from its ease of use,through smooth integration, and up to top-notch documentation and overall scalability.
+> 首个使用 webpack 来提高开发者体验的框架。
 
-Obviously, Vue.js—again, like almost every other open-source library— began as a one-man project. Since then, it grew to the point where it has a fully-staffed core team that takes care of different aspects of the library and its ecosystem.
+但在开发体验上已经远远超越 webpack，而且体验在各个方面: 易用性、无缝集成、优秀的文档、整体的可扩展性。
 
-The funding? Over the last two years, individuals and companiesfrom all around the world decided to support Evan You (the creator) and the Core Team with a stable monthly income of more than $10, through successful campaigns on both Patreon and Open Collective. This allowed Evan to shift to working on Vue full time.
+显而易见，Vue.js 和很多其它开源项目一样，刚开始是一个个人作品。 慢慢地，它拥有了一个全职核心团队，专门负责维护它的各个方面和生态系统。
 
-The sponsors include multiple companies and hundreds of other private backers. The list of current sponsors can be found [here](https://vuejs.org/support-vuejs/).
+基金会呢? 近两年，通过在 Patreon 和 Open Collective 上的成功运作，全球的很多个人和公司决定每个月固定赞助尤雨溪（Vue 作者）和核心团队超过10000美元。这样，尤雨溪就可以全职从事 Vue 的开发了。
 
-### The Growth
+赞助者包括许多公司和几百位个人赞助者。在[这里](https://vuejsorg/support-vuejs/)可以看到这些赞助者们。
 
-Here are some numbers that might give you a feeling of how fast the Vue ecosystem is growing.
+### 成长
 
-Let’s take GitHub stars for example. Although they might not be the perfect metric to demonstrate the popularity of a project just yet, they surely show the excitement around it. And the excitement was high enough to make Vue the [Most Starred Project on GitHub in 2016](https://risingstars2016.js.org/#all). Not just within the JavaScript or frontend categories. It was the most starred project that year, period, and right now it’s the second most-starred frontend framework, sitting slightly behind React, and the sixth most-starred GitHub project overall. It already surpassed jQuery and Angular.
+让我们通过一组数字来更直观地感受到 Vue 生态的快速成长。
 
-Surveys like the [State of JavaScript 2016](https://stateofjs.com/2016/frontend/) indicate that Vue has one of the highest satisfaction ratings and 89% of developers who’ve used Vue before would pick it again.
+以 GitHub 的 star 数为例，尽管它不是衡量一个项目知名度的完美指标。但开发者们很兴奋， 而且这份兴奋使得 Vue 成为 [2016 年 Github 上获得 star 数最多的项目](https://risingstars2016jsorg/#all)。不限于 JavaScript 或者前端分类，在2016年，它是获得star数最多的项目。过了一段时间，到现在为止，它已经是 star 数第二多的前端框架了，仅次于 React。 同时，它也是 GitHub 上 star 数第六多的项目，已经超过了 jQuery 和 Angular。
 
-Naturally, there are a number of other metrics to check out, such as monthly npm downloads (~800k) or weekly dev tools users (~270k). The npm numbers might seem small compared to React, but it’s worth mentioning that Vue downloads increased more than five times over the last twelve months. Looking at the momentum Vue currently has, I believe it’s safe to assume the numbers will grow at an even greater pace in the coming years.
+[2016 年前端调查](https://stateofjscom/2016/frontend/)这样的问卷调查显示: Vue 是用户满意度最高的语言之一，89% 使用过 Vue 的开发者表示会再次使用 Vue。
 
-A big part of this growth comes from the fact that more and more com- panies are picking Vue as their main frontend framework. Among other things, these recent adopters have been praising Vue’s incredibly smooth learning curve, ease of integration into their existing stack, top-notch
-performance, and—what’s probably the most important factor—the im- provements in development speed and reductions in maintenance costs. In other words, choosing Vue saves money.
+当然，还有其他指标来衡量 诸如 npm 上每个月的下载量（大约 800k），开发者工具每周活跃用户数达到 270k。npm 上的下载量相比 React 的下载量相差很小。但值得一提的是：在过去的十二月，Vue 的下载量增长了 5 倍。以 Vue 现在的增幅，我相信在未来几年，这个数字将会以更快的速度增长。
 
-But don’t take my word for it just yet. To make our case, we surveyed 1,126 developers from 88 countries, and collected several case studies, hailing from a range of different industries, that have adopted Vue.
 
-Read on.
+事实上很大一部分的增长是因为越来越多的公司选择Vue作为主要的前端框架。除此之外，开发者们很欣赏 Vue 平滑的学习曲线，集成到现有的技术栈的便捷，以及顶尖的性能。也许最重要的因素是提升开发效率和减少维护成本。换句话说，选择 Vue，省钱。
+
+但不要只信我的一家之言。为此，我们对来自 88 个国家的 1126 位开发者做了调研，并收集了一系列来自不同行业的采用 Vue 的案例。
+
+请继续阅读
