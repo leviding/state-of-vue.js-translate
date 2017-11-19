@@ -1,234 +1,234 @@
-## How developers use Vue.js
+## 使用 Vue.js 的开发者调研报告
 
-We were curious about the experience with Vue.js among software developers and Chief Technology Officers. In an online survey we asked them a number of questions to determine:
+我们很好奇软件开发者以及技术主管们都是如何看待并使用 Vue.js 的，因此我们分发了一份网上问卷给他们，其中列举了以下这些问题：
 
-- what were the reasons behind adding Vue to their tech stack,
-- what advantages did working with this framework offer them,
-- what were their main doubts with regard to using Vue in their project,
-- what resources did they use to master Vue.js,
-- how many of their colleagues use Vue and whether they expect this number to grow in the next 12 months,
-- for how long have they and their teams used Vue.js,
-- what other backend and frontend technologies are used in those companies.
+- 为何要将 Vue 加入你们的技术栈？
+- 使用该框架能带来哪些好处？
+- 如果考虑在项目中使用 Vue 的话，你们会主要担心哪些问题？
+- 你们使用哪些资源以便熟练地使用 Vue.js？
+- 你们的同事中有多少也在用 Vue？你们觉得在未来一年里这个人数会上升吗？
+- 你们和你们的团队分别使用 Vue.js 多久了？
+- 你们公司还使用过哪些其它的前后端技术？
 
-### Report Data
+### 报告的数据说明
 
-All report data comes from a survey conducted over a four-week period in August and September of 2017. We received 1,126 responses, mainly from software developers and Chief Technology Officers (94.1% of the respondents held these or related technical roles) whose organizations use Vue. The responses came in from every continent on Earth (except Antarctica); in total, we’ve managed to collect replies from 88 countries.
+该报告中的所有数据来源于我们在 2017 年的八月至九月进行的一次为期四周的调研。我们总共收到了 1,126 份问卷回复，大多来自于使用 Vue 的组织中的技术主管及软件开发者们（94.1% 的问卷回复者都承担相关的技术工作）。这些回复者们来自世界各大洲（除了南极洲），总共 88 个国家。
 
-We also asked Evan You, Vue creator and Chris Fritz, Vue Core Team member to comment on some of the survey results, in order to provide additional insights or to share their broader perspective.
+我们在撰写该报告的同时还针对一些调研结果咨询了 Vue 的创始人尤雨溪以及 Vue 的核心成员 Chris Fritz，他们为我们提供了一些独到的观点并分享了更深远的洞见。
 
-### Key Insights
+### 主要观点
 
-- **96%** survey participants would use Vue.js again for their next project.
-- **94%** of the respondents used the Official Vue documentation as their main source of knowledge about the framework.
-- **81%** of survey participants say that ease of integration is one of the chief advantages of having Vue in their organizations’ tech stack.
-- **54%** are convinced Vue.js is going to get more popular in their organization in the next 12 months.
+- **96%** 的调研回复者表示会在他们的下一个项目中继续使用 Vue.js。
+- **94%** 的回复者使用官方 Vue 文档作为他们了解该框架的主要资源。
+- **81%** 的回复者说 Vue 的集成很方便，这是他们在自己组织中的技术栈里推行它的一个主要好处。
+- **54%** 的回复者相信在未来 12 个月里，Vue.js 会在自己的组织中变得愈发流行。
 
-### Survey Questions
+### 调研问卷中的问题
 
-#### What was the most important reason behind adding Vue.js to the technology stack?
+#### 将 Vue.js 加入技术栈中的最主要原因是？
 
-Whether starting a new project or inheriting one—the developers are more or less unanimous: Vue.js is pretty easy to start with, even for a really complex applications. They appreciate its simplicity and architec- tural elegance, elaborate on how easy it is to integrate Vue, but also compare its lightness and performance to other popular frameworks, claiming Vue is the unquestionable winner here. All in all, **Vue.js is described as a beginner-friendly framework by more than half of the respondents.**
+不管开发者们新建还是接手已有的项目，他们基本一致地认为：Vue.js 很容易上手，哪怕是对于一个非常复杂的应用而言。他们评论说集成 Vue.js 很容易，原因在于它使用简单、架构优雅、同时设计精巧。不仅如此，他们还在将其与其它主流框架对比后声称 Vue 更轻量、性能更优，是毋庸置疑的胜者。总的来说，**超过半数的问卷回复者都认为 Vue.js 是个对入门者相当友好的框架。**
 
-**THE MOST IMPORTANT REASON BEHIND ADDING VUE TO THE TECH STACK**
+**将 Vue.js 加入技术栈中的最主要原因**
 
 ![](https://i.loli.net/2017/11/01/59f9674ec9cac.png)
 
-- Vue.js is pretty easy to start with 59%
-- Tech stack needed to be updated 22%
-- Team was interested in trying out the framework 10%
-- Other 9%
+- Vue.js 上手很容易 59%
+- 技术栈需要更新了 22%
+- 团队想尝试下这个框架 10%
+- 其它原因 9%
 
-> Could be used for existing and new projects + pretty easy to use! 
+> 很适合用于现有的或者新项目，而且用起来很容易！
 >
-> From Chief of Technology Officer, Large enterprise, France.
+> —— 技术主管，大企业，法国
 
-> Easy to integrate with existing apps or go full SPA.
+> 集成进现有应用中，或者实现个纯单页应用都很方便。
 >
-> Software developer, Medium enterprise, Australia.
+> —— 软件开发，中型企业，澳洲
 
-#### What were the doubts you and your team had when planning to add Vue.js to your tech stack?
+#### 你和你的团队考虑将 Vue.js 加入技术栈的时候会有哪些顾虑？
 
-The respondents mention two main doubts they had when planning to add Vue.js to their tech stack. First concern, expressed by 45% of respondents, is more related to their teams themselves. **Lack of former Vue experience** among their colleagues was seen as a possible issue when planning to add the framework to their tech stack.
+对于这个提问，回复者们提到了两个主要担心的问题。首先的一点是关系到自己团队成员的，45% 的回复者都表示，这些成员们 **缺乏 Vue 的相关经验** ，而这会是他们在考虑将 Vue.js 加入技术栈的时候可能面临的问题。
 
-**DOUBTS WHEN ADDING VUE.JS TO TECH STACK**
-Percentages do not sum up to 100% due to the multiple choices.
+**考虑将 Vue.js 加入技术栈时的顾虑**
+该题为多项选择，因而结果总和超过 100%
 
 ![](https://i.loli.net/2017/11/01/59f96a6bb6cff.png)
 
-- Lack of former Vue.js experience among employees 45%
-- Uncertainty regarding its future 45%
-- Lack of a popular native mobile development platform 23%
-- Doubts about its scalability 15%
-- Other 12%
+- 同事们缺少 Vue.js 相关经验 45%
+- 不确定该框架的未来趋势 45%
+- 缺少成熟的相关原生应用开发平台 23%
+- 对该框架的扩展性有所顾虑 15%
+- 其它顾虑 12%
 
-> Vue’s mobile options are constantly improving. In the meantime though, Vue offers very strong support for Progressive Web Apps, including a dedicated template. Community projects like Onsen UI even simplify the process of building native-like, hybrid UIs.
+> Vue 在手机上的支持是在持续提高的。现在 Vue 已经提供了对 Progressive Web Apps 的强大支持，这其中包括了我们提供的可靠模板。社区项目中像是 Onsen UI 就简化了构建类 native 的 hybrid UI 的过程。
 >
-> From Chris Fritz, Vue.js core team member.
+> —— Chris Fritz，Vue.js 的核心开发
 
-> We do have Weex and NativeScript, but we acknowledge they both have areas to improve. Weex has been used in production at Alibaba for quite a long time, and is essentially Alibaba’s bet in the mobile dev space. But it lacks in terms of documentation and learning resources for English speakers. We intend to bridge that gap next year by providing official guidance on how to get started with it from the Vue side.
+> 我们现在就有 Weex 和 NativeScript（译者补充：来支持开发原生应用）, 但我们也承认这两者都有很多改善空间。Weex 其实被阿里巴巴用以线上开发已经很长一段时间了，也是其在手机开发领域上的主要选择。但 Weex 欠缺了一些英文文档和学习资料。为了弥补这一点，我们也已准备在接下来一年内提供官方指南，帮助大家使用 Vue 来开发 Weex。（译者补充：现已有[官网教程](https://weex.apache.org/cn/guide/intro/using-vue.html)）
 >
-> NativeScript is also a solid technology, and its integration with Vue, although relatively young, is being improved at a rapid pace. It’s getting more impressive every day. Definitely keep an eye on it if you are interested in using Vue for native development.
+> NativeScript 也是个很成熟的技术了，虽然它和 Vue 的集成还相对年轻，但每天进展飞速，令人印象深刻。所以如果你对使用 Vue 来开发原生应用有兴趣的话请一定要关注下。
 >
-> From Evan You, Vue.js creator.
+> —— 尤雨溪，Vue.js 创始人
 
-**Lack of a popular native development platform** was mentioned by the same percentage of respondents as their doubt when considering using Vue.js.
+**缺少成熟的原生应用开发平台** 也被相近比例的回复者提到，这也是他们在将 Vue.js 加入技术栈前的顾虑。
 
-Doubts about Vue.js scalability were chosen by 172 survey participants, making it one of the five most prevalent doubts plaguing developers planning to add the framework to their current tech stack.
+有 172 个被调研者勾选了对 Vue.js 扩展性的顾虑，这使得该选项成为五个阻碍着开发者们拥抱 Vue.js 的主要原因之一。
 
-> Architectural-wise, Vue is built on the component-based model for UI development which is a proven pattern shared among all major frameworks, with solid official solutions for SPA routing and large-scale state management. It is designed for approachability, but is also designed with scale in mind.
+> Vue 的开发是基于组件化模型的，这也是现在所有主流框架中共享的一种适用于 UI 开发的设计模式。对于单页应用，Vue 提供了官方支持的路由库，也支持大规模状态管理。Vue 的设计初衷是轻量级易上手，但支持规模化也被我们设计在案。
 > 
-> We also have many users successfully building large scale projects with Vue, some even with hundreds of components and are still perfectly happy with the workflow. In addition, some existing big apps are being rewritten with Vue and we’ve received very positive feedback from devs working on them, for example Adobe Portfolio and JSFiddle.
+> 现已有很多成功的大规模项目是使用 Vue 打造的，有些甚至由几百个组件构成还照样运转得很顺利。另外值得一提的是，一些现有的大规模应用都在用 Vue 重写，我们收到了来自这些应用开发者们非常肯定的反馈，比如 Adobe Portfolio 和 JSFiddle。
 >
-> From Evan You
+> —— 尤雨溪
 
-#### What are the biggest advantages that Vue.js brings to your organization?
+#### 使用 Vue.js 给你的组织带来的最大好处是哪些?
 
-An impressive **81% of developers emphasize ease of integration** when it comes to Vue. The majority remarked upon how easy it is to master Vue and claimed that it’s much easier to learn than other popular frameworks. They also appreciate its **uncomplicated inte- gration with backend frameworks**.
+**81% 的开发者都强调了 Vue.js 的易于集成**，这个比例很惊人。大多数回复者都谈到要想熟练掌握 Vue 很容易，而且比起其它主流框架来说更容易。他们还称赞其**与后端框架集成也不复杂**。
 
-Documentation is another strong point of Vue, brought up by 60% of surveyed developers. A similar number of respondents (56%) identified the framework’s performance as its biggest advantage.
+60% 的开发者还提到 Vue 的文档是其亮点。差不多比例的回复者（56%）认为该框架的性能优异是其最大的优势。
 
-**THE BIGGEST ADVANTAGE**
-Percentages do not sum up to 100% due to the multiple choices.
+**Vue 最大的优势**
+多项选择，结果总和超过 100%
 
 ![](https://i.loli.net/2017/11/01/59f96ed5e1c69.png)
 
-- Ease of integration 81%
-- Documentation 60%
-- Performance 56%
-- Progressiveness 49%
-- Highly involved community 29%
-- Other 4%
+- 易于集成 81%
+- 文档详尽 60%
+- 性能优异 56%
+- 与时俱进 49%
+- 社区活跃 29%
+- 其它优势 4%
 
-> The smooth learning curve make a lot of people interested into Vue.js.
+> Vue.js 的学习曲线很平缓，很多人因此产生兴趣。
 >
-> From Senior developer, Medium-size business, New Zealand.
+> —— 高级开发，中型企业，新西兰
 
-> We were debating React vs Vue and ultimately chose Vue and we are glad we did.
+> 我们之前在 React 和 Vue 之间进行过抉择，最后我们选择了 Vue，至今我们都很庆幸我们的选择。
 >
-> Software developer, Medium enterprise, USA.
+> —— 软件开发，中型企业，美国
 
-> Vue.js makes frontend development manageable and scalable. The learning curve is pretty easy so backend developers can easily get what’s going on without too much guidance. Since there are a lot of pretty good webpack configs already out there, it kinda feels like plug and play nowadays. Finally, the fact that we can use Vue.js either via run time or compiling it, it’s a pretty amazing tool to use from small to large applications without too much difficulty in scaling.
+> Vue.js 使得前端开发容易管理也易扩展。它的学习成本也不高，这使得后端开发们也不需要太多指导就能清楚前端这边的工作。因为现在已经有很多好用的 webpack 相关配置，使用 Vue 现在有点像是装个插件一样。最后说一点，运行时和编译时我们都能使用 Vue.js，它真的是个很棒的工具，无论是对于小型的应用来说还是大型应用而言，想要扩展都不太难。
 >
-> Software developer, Small business, Philippiness.
+> —— 软件开发，小公司，菲律宾
 
-#### Is there anything you’re missing when it comes to Vue.js?
+#### 有哪些建议是你想对 Vue.js 提的吗？
 
-We received 481 valid responses to this open-ended question. Since some of the shortages were mentioned by more than 20 people, we decided to employ broader categories for them.
+对于这个开放式问题，我们收到了 481 份有效回答。由于有些建议被 20 多人提到了，因此我们决定列举几项比较共性的建议，再开放个单选题。
 
-Lack of a native Vue mobile solution is one of the biggest pain points, spontaneously mentioned by more than 24% of respondents. There is definitely **a strong demand for a more advanced mobile solution for Vue.js**.
+缺乏 Vue 相关的原生开发解决方案是几个最大的问题之一，24% 的回复者都同时提到了这点。毫无疑问地，**Vue.js 需要更先进完善的移动端解决方案**。
 
-15% of those who replied to this question, identified a **relatively small ecosystem** as another Vue drawback. Once the ecosystem gets better and bigger it will be able to ensure a better collection of components. 
+15% 回答这个问题的都指出 Vue 还有个不足是其**生态环境相对较小**。如果其生态环境能更强大的话，它一定能孕育出更为优秀的组件库。
 
-Additionally,
+除此之外,
 
-> **tooling is going to be improved even more with the next iteration of the CLI,** assures Evan You.
+> **随着下一版 CLI 的更新，Vue 的工具也会得到改善**，尤雨溪如此保证。
 
-In their replies, respondents also brought up lack of official tutorials, a “Vue bible” as one of them called it, or a comprehensive Vue Cook- book that would offer more real life examples, especially in complex apps. As Christ Fritz comments,
+在这些回复中，还有人提到说 Vue 缺少一些官方教程（一个回复者称为《 Vue 圣经 》），或者一份能提供更多现实案例，特别是针对复杂应用的指导手册。Christ Fritz 指出，
 
-> **The recently released [official style guide](https://vuejs.org/v2/style-guide/) now provides a sort of Vue bible, but it was unavailable at the time of the survey.**
+> **现在已经发布的[官方风格指南](https://vuejs.org/v2/style-guide/)某种程度上来说可作为 Vue 圣经，但在开展调研那时还没提供。**
 
-There is also a need for **better documentation for the framework** , since 53 of respondents mentioned some issues related to it either directly (eg. More architecture-related documentation regarding bigger apps ) or indirectly, mentioning some issues they wrongly assume are impossible to solve with Vue. The two final issues, identified by more over 20 respondents, were related to improvements in testing tools and the need to **improve the core**.
+同时还有个建议是， **该框架需要一份更完善的文档**。有 53 个回复者提到了和该建议直接相关的一些问题（比如建议多提供些用 Vue 构建一个大型应用的架构设计文档），以及和该建议并不直接相关的问题，比如一些他们错误地认为不能用 Vue 解决的问题。有两个问题被 20 多个回复者都指出了，一个是需要加强测试工具，另一个是需要**优化核心库**。
 
-**SUGGESTIONS**
+**对 Vue.js 的建议**
 
 ![](https://i.loli.net/2017/11/01/59f977f3035c6.png)
 
-- Need of Vue-native, a more advanced mobile solution 116
-- Bigger, better ecosystem, assuring better collection of components and tooling 74
-- Official tutorials and other learning resources, providing more use cases with best practices and real life examples (esp. of complex apps) 67
-- Better documentation allowing smoother apps development 53
-- Better testing tools and libraries 37
-- Improved core 21
+- 需要更先进完善的 Vue 原生应用客户端解决方案 116票
+- 需要更强大的生态环境，能提供更优秀的组件库和工具组 74票
+- 需要官方教程以及其它相关学习资源，以期提供更多现实案例和最佳实践（特别是复杂应用相关的） 67票
+- 需要更完善的文档，以便更顺利地开发应用 53票
+- 需要更棒的测试工具和库 37票
+- 优化核心库 21票
 
-> The cookbook, which will begin serious development in November, will help provide examples for larger apps, common integrations, and also explore architecture questions.
+> 我们将在十一月起认真撰写使用手册，以便为构建大型应用、通用集成方案、架构设计探索等问题提供示例。
 >
-> From Chris Fritz
+> —— Chris Fritz
 
-#### What’s the probability of you using Vue again for a new project?
+#### 开发下一个项目时，你有多大可能会再次使用 Vue？
 
-More than **95% of respondents claim they would use Vue.js again for a new project**. A number that high clearly proves that their doubts went away once they gained experience with the framework. Even though they mention its shortages and express the need for improvements, Vue is clearly appreciated by almost everyone who has ever used it and the overwhelming majority of respondents have no doubts about using it again for their next project.
+超过 **95% 的回复者声称他们在下一个项目中还会使用 Vue**。许多开发者明确表示他们使用过该框架后，之前的顾虑都不再是问题。即使他们还是指出了它的一些不足和值得改进之处，但几乎所有人在用过该框架后都对其称赞有加。同时绝大多数回复者选择在下一个项目中依然使用 Vue。
 
-**THE PROBABILITY OF USING VUE FOR NEXT PROJECT**
+**在下一个项目中会使用 Vue 的可能性**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98213a9d6f.png)
 
-- 5 (very high) 82.9%
+- 5（非常高）82.9%
 - 4 12.5%
 - 3 3.5%
 - 2 1%
-- 1(very low) 0.1%
+- 1（非常低）0.1%
 
-#### How long Vue.js has been used within your organization?
+#### 你所在的组织机构使用 Vue.js 有多久？
 
-With its growing community, dedicated events popping up all over the world, and its position among the [top 10 most starred repositories on GitHub](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories), Vue is gaining more and more traction. **More than 3/4 respondents added Vue.js to their tech stack in last 12 months**.
+随着 Vue 社区的逐步壮大，精心打造的相关项目在世界各地层出不穷，同时它也跻身于 [GitHub 上星数排名前十的仓库列表](https://github.com/search?p=1&q=stars%3A%3E1&s=stars&type=Repositories)，Vue 愈来愈受到普遍认同。**超过 3/4 的回复者在近一年内将 Vue.js 加入了他们的技术栈中**。
 
-It may mean we should expect the number of Vue developers to grow rapidly over the next few years and the framework itself maturing, with a better ecosystem and more use cases.
+我们可以预见在未来几年内使用 Vue 的开发者数量会飞速上涨，同时该框架自身也在不断变得成熟，其生态环境将不断强大，也会有越来越多的使用案例。
 
-**HOW LONG VUE.JS HAS BEEN USED WITHIN YOUR ORGANIZATION?**
+**你所在的组织机构使用 Vue.js 有多久？**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f984a53aeeb.png)
 
-- Less than 6 months 45%
-- 6–12 months 34%
-- 1–2 years 19%
-- More than 2 years 2%
+- 少于 6 个月 45%
+- 6–12 个月 34%
+- 1–2 年 19%
+- 超过 2 年 2%
 
-#### What resources do you use to learn about Vue.js?
+#### 学习 Vue.js 时你会使用哪些资源？
 
-**The official Vue documentation is the most popular resource used to learn about Vue.js**. It was chosen by 94% of software developers, proving that a well thought out documentation is a major strength of any framework. Additionally, online articles, blog posts, and commu- nities such as StackOverflow or the official Vue Forum have been iden- tified as a source of knowledge by over 70% of the surveyed software de- velopers. Online courses have attracted 41% of them, while on-the-job training and books have served less than 1/4 of the respondents.
+**官方 Vue 文档是最普遍使用的参考资源。** 94% 的软件开发者都勾选了它，这也说明了，一份深思熟虑后发布的文档是学习任何框架的主要资源。另外，70% 受调研的软件开发者还选择了线上文献、技术博客、一些社区像是 StackOverflow 或者官方 Vue 论坛等作为知识来源。线上课程受到了 41% 开发者的青睐，而选择了在职培训、相关书籍的只占 1/4 不到。
 
-**LEARNING RESOURCES**
-Percentages do not sum up to 100% due to the multiple choices.
+**Vue.js 的学习资源**
+多项选择，结果总和超过 100%
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f987f910880.png)
 
-- Official documentation 94%
-- Online articles and blog 78%
-- Online communities (eg. StackOverflow, Vue Forum) 72%
-- Online courses 41%
-- On-the-job training 22%
-- Books 12%
-- Other 5%
+- 官方文档 94%
+- 线上文献及博客 78%
+- 线上社区（比如 StackOverflow、Vue 官方论坛） 72%
+- 线上课程 41%
+- 在职培训 22%
+- 书籍 12%
+- 其它 5%
 
-#### Do you think the number of employees using Vue.js in your organization will increase in the next 12 months?
+#### 你觉得你所在的组织机构中使用 Vue.js 的员工比例会在一年内增长吗？
 
-**54% respondents are convinced Vue.js is going to be more popular amon their organization in the next 12 months**. However, those who work at large enterprises (more than 1,000 employees) are even more certain Vue is going to be widely adapted in their companies: 76% of them believe so.
+**54% 的回复者相信 Vue.js 在未来一年中，将在其组织里变得愈发流行。** 然而那些在大型企业（超过 1,000 员工）工作的开发人员更确信 Vue 在其公司会被广泛接受：76% 的受调研者勾选了赞同。
 
-**INCREASE IN THE NUMBER OF EMPLOYEES USING VUE.JS**
+**使用 Vue.js 的员工比例会上升吗**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98810daa31.png)
 
-- 5 (definitely yes) 33%
+- 5（绝对会）33%
 - 4 21%
 - 3 24%
 - 2 11%
-- 1 (definitely no) 11%
+- 1（绝对不会）11%
 
-> Other projects in the company are going to use Vue (or already do).
+> 公司的其它项目都打算使用 Vue（甚至已经开始用了）。
 >
-> From Software developer, Large enterprise, France.
+> —— 软件开发，大型企业，法国
 
-> We’re hiring like crazy and have lots of projects coming up. They’ll all use Vue.
+> 我们在疯狂扩招，有非常多的项目将要涌现。这些项目都会使用 Vue.js 来开发。
 >
-> Head of Engineering, Large enterprise, Germany.
+> —— 技术总监，大型企业，德国
 
-#### What are the main technologies and frameworks you use for frontend development?
+#### 你主要使用的前端技术和框架是哪些？
 
-**INCREASE IN THE NUMBER OF EMPLOYEES USING VUE.JS**
-Percentages do not sum up to 100% due to the multiple choices.
+**主要使用的前端框架**
+多项选择，结果总和超过 100%
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f9883bf1687.png)
 
 - Vue.js 33%
 - Angular 21%
 - ReactJS 24%
-- Other 11%
+- 其它 11%
 - Backbone 6%
 
-#### What are the main technologies and frameworks you use for backend development?
+#### 你主要使用的后端技术与框架是？
 
-**MAIN BACKEND TECHNOLOGIES AND FRAMEWORKS**
-Percentages do not sum up to 100% due to the multiple choices.
+**主要使用的后端语言与框架**
+多项选择，结果总和超过 100%
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98eac1734c.png)
 
@@ -236,37 +236,37 @@ Percentages do not sum up to 100% due to the multiple choices.
 - Node.js 45%
 - Java 18%
 - C#/.Net 17%
-- Python (Django, Flask, etc.) 17%
-- Ruby (on Rails or otherwise) 10%
-- Other 8%
+- Python (Django、Flask等框架) 17%
+- Ruby (Rails等框架) 10%
+- 其它 8%
 
-### Demographics
+### 受调研人员数据
 
-We surveyed 1,126 software developers, CTOs, and other technical roles familiar with Vue from 88 countries.
+我们对来自 88 个国家的 1,126 名熟悉 Vue 的软件开发者、CTO、以及其他相关技术人员进行了调研。
 
-**COMPANY SIZE (NUMBER OF EMPLOYEES)**
+**公司规模（员工数量）**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98f1be43bd.png)
 
-- Small and Medium-Sized (<100) 77%
-- Medium Enterprise(100-999) 15%
-- Enterprise (1000+) 8%
+- 小型企业（少于 100 人）77%
+- 中型企业（100-999 人）15%
+- 大企业（超过 1000 人）8%
 
-**TEAM SIZE (NUMBER OF TEAMMATES)**
+**团队规模（组员数量）**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98f761c64e.png)
 
-- Small team (2–10) 73%
-- Solopreneur 17%
-- Medium team(11–25) 8%
-- Large team (25+) 2%
+- 小团队（2-10 人）73%
+- 个企 17%
+- 中型团队（11-25 人）8%
+- 大型团队（超过 25 人）2%
 
-**ROLE IN ORGANISATION**
+**在组织中担任的职能**
 
 ![](https://ooo.0o0.ooo/2017/11/01/59f98fcd2ddaf.png)
 
-- Software developer 66%
-- Chief Technology Officer 20%
-- Other technical role 8.5%
-- Project Manager 4%
-- Other 1.5%
+- 软件开发 66%
+- 技术主管 20%
+- 其他技术人员 8.5%
+- 项目经理 4%
+- 其他 1.5%
