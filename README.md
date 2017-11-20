@@ -5,7 +5,7 @@
 > * 译文出自：[掘金翻译计划](https://github.com/xitu/gold-miner)
 > * Event Organizer：[leviding](https://github.com/leviding)
 > * Translaters：[sasa-m](https://github.com/sasa-m)、[altairlu](https://github.com/altairlu)、[ParadeTo](https://github.com/ParadeTo)、[ly525](https://github.com/ly525)、[zwwill](https://github.com/zwwill)、[html5challenge](https://github.com/html5challenge)、[vxqqb](https://github.com/vxqqb)
-> * Reviewers：
+> * Reviewers：[leviding](https://github.com/leviding)、[ParadeTo](https://github.com/ParadeTo)、[PCAaron](https://github.com/PCAaron)、[vxqqb](https://github.com/vxqqb)、[zwwill](https://github.com/zwwill)、[caoyi0905](https://github.com/caoyi0905)、[JohnJiangLA](https://github.com/JohnJiangLA)、[html5challenge](https://github.com/html5challenge)、[iFwu](https://github.com/iFwu)
 > * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md](https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md)
 
 ## 序
