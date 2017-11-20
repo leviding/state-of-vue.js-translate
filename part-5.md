@@ -2,13 +2,13 @@
 
 Chess.com is the #1 destination for online chess. Every day more than a million games are played by chess players from all around the world and all skill levels. Chess.com is a fully remote team with 100 team members.
 
-Chess.com 是排名第一的在线国际象棋网站。来自全世界各个地方各个段位的棋手每天要对弈超过 100 万局。Chess.com 是由 100 位成员组成的完全远程的团队。
+Chess.com 是排名第一的在线国际象棋网站。来自全世界各个地方各个段位的棋手每天要对弈超过 100 万局。Chess.com 是由 100 位成员组成的完全远程工作的团队。
 
 > It was the first time I’ve read the entire documentation in one sitting. It was 1:30am in the morning. By the time I got to the end of it, I knew that Vue. js was something special. There was something unique about it. Something I’d never seen before.
 >
 > From Scott O’Brien, Lead UX Engineer at Chess.com.
 
-> 这是我第一次一口气阅读完整的文档。现在是早上 1:30。当我看完时，我知道了 Vue.js 是个特别的东西。它有一些独特之处。一些我从来没有见过的东西。
+> 这是我第一次一口气阅读完整的文档。现在是凌晨 1:30。当我看完时，我知道了 Vue.js 是个特别的东西。它有一些独特之处。一些我从来没有见过的东西。
 >
 > Scott O’Brien，Chess.com 首席用户体验工程师
 
@@ -69,7 +69,7 @@ Its legacy code was in PHP and Angular 1. At any given moment, Chess.com is host
 
 > We got to the point where the old way of doing things with Angular 1 was a huge performance bear. It was just getting bigger and bigger. Some parts of our website became unusable on legacy hardware from a performance perspective. It was unmaintainable, Scott recals.
 
-> 我们已经知道使用 Angular 1 是一个巨大的性能瓶颈。它只会变得越来越大。从性能角度来看，我们网站的有些部分在一些遗留的硬件设备上已经变得无法使用。它是无法维护的，Scott 回忆说。
+> 我们已经知道使用 Angular 1 是一个巨大的性能瓶颈。这个问题会变得越来越大。从性能角度来看，我们网站的有些部分在一些传统的硬件设备上已经变得无法使用。它是无法维护的，Scott 回忆说。
 
 
 The challenge that Chess.com was facing was not only dealing with existing features, but also planning for future ones.
@@ -92,7 +92,7 @@ To improve the user experience, Chess.com required some real changes.
 
 > We knew we needed to take a leap. There was significant delibera- tion over which framework we wanted to move to from Angular 1. Of course, we considered the big players—Angular 2 and React.
 
-> 我知道我们需要一个质的飞跃。对于从 Angular 1 迁移到哪个框架我们深思熟虑。当然，我们有考虑过两位大佬：Angular 2 和 React。
+> 我知道我们需要一个质的飞跃。从 Angular 1 迁移到哪个框架让我们深思熟虑。当然，我们有考虑过两位大佬：Angular 2 和 React。
 
 The massive infrastructure and ongoing product development requires a well-organized and quite big-sized team.
 
@@ -100,7 +100,7 @@ The massive infrastructure and ongoing product development requires a well-organ
 
 > We have a collection of very different skillsets within our development team. Moreover, the team is fully distributed and international—we are all over the map. Any decision as big as leaping to another technology brings a lot of concerns.
 
-> 在我们的开发团队中，有非常不同的技术栈。此外，我们的团队是完全分布式和国际化的。任何像技术迁移一样重要的决定都会引起很多人的关注。
+> 在我们的开发团队中，有各种各样的技术栈。此外，我们的团队是完全分布式和国际化的。任何像技术迁移一样重要的决定都会引起很多人的关注。
 
 #### Solution
 #### 解决办法
@@ -119,7 +119,7 @@ Choosing a framework backed by Facebook or Google, such as React or Angular, res
 
 One of the first things that Chess.com team had to work on was rewriting different pages from AngularJS to Vue.
 
-Chess.com 团队首先要做的事情之一就是重写不同的从 AngularJS 到 Vue 的页面。
+Chess.com 团队首先要做的事情之一就是将不同的页面从 Vue 重写为 AngularJS。
 
 > The process of rewriting is still going on today. It has been happen- ing for months at this point. The other mission that we had was essentially building our internal collection of reusable components, Scott points out.
 
@@ -129,7 +129,7 @@ Chess.com 团队首先要做的事情之一就是重写不同的从 AngularJS �
 
 > I think it’s the most impressive thing we have been using Vue for— architecting a growing library of components, each with its own modular CSS, which will eventually comprise the entirety of user interface elements on our site. While one team has been using Vue to implement components, routes, and stores for particular product domains, another team has been working on our component library to be shared throughout the site with little to no concern for collision. Additionally, it has infused our product discussions with a greater sense of abstraction and reuse.
 
-> 我认为用 Vue 构建一个不断增长的组件库是一件非常酷的事情，每个组件都有自己的模块化 CSS，这些组件最终会构成我们网站上的全部用户界面元素。一个团队一直在用 Vue 来实现特定产品领域的组件，路由和存储，而另一个团队一直致力于构建全站共享的组件库，几乎不用担心产生冲突。此外，它还使我们的产品讨论更加抽象和复用。
+> 我认为用 Vue 构建一个不断增长的组件库是一件非常酷的事情，每个组件都有自己的模块化 CSS，这些组件最终会构成我们网站上的全部用户界面元素。一个团队一直在用 Vue 来实现特定产品领域的 components、routes 和 stores，而另一个团队一直致力于构建全站共享的组件库，几乎不用担心产生冲突。此外，它还使我们的产品讨论更加抽象和复用。
 
 #### Outcome
 #### 成果
@@ -139,7 +139,7 @@ For a big app like Chess.com, one thing about Vue brings more benefits than the 
 
 > Single File Components was an absolute game changer for structuring and maintaining our repository. Being able to just buy in to the official pieces of the framework having an official state management system. We’re having confidence that these things are going to work together—it’s all part of the collective vision.”
 
-> 单个文件组件绝对是构建和维护我们库的不二法则。Being able to just buy in to the official pieces of the framework having an official state management system.（这个不会翻呀，哪位帮帮我）我们相信这些事情会一起工作——这都是集体愿景的一部分。
+> 单个文件组件绝对是构建和维护我们库的不二法则，这样使得团队能够仅仅在有官方的状态管理系统的框架部分中进行投入。我们相信这些事情会一起工作——这都是集体愿景的一部分。
 
 With Vue.js in place, Scott finds it easier to collaborate with his remote team.
 
@@ -180,7 +180,7 @@ In the last 12 months the agency has been named World’s most creative agency a
 
 We decided to pick Vue.js be- cause it was answering all the requirements we had to cover for our projects, while offering a comfortable development environment for our team. It’s so close to native JavaScript, that it’s extremely easy to start working with it.
 
-我们决定选择 Vue.js 因为它满足了我们的项目提出的所有需求，同时为我们的团队提供了一个舒适的开发环境。它非常接近于原生 JavaScript，因此很容易使用它。
+我们决定选择 Vue.js 因为它满足了我们的项目提出的所有需求，同时为我们的团队提供了一个舒适的开发环境。它非常接近于原生 JavaScript，因此很容易上手。
 
 > From Sylvain Simao, Technical Lead at Clemenger BBDO Melbourne.
 
@@ -194,7 +194,7 @@ Projects with short lifespans (4 to 12 weeks) done by different people.
 Working with animations and transitions.
 Need to load and work fast on mobile devices.
 
-项目周期短（4 到 12 周），由不同的人开发。
+项目周期短（4 到 12 周），由多人完成开发。
 
 使用动画和过渡效果。
 
@@ -229,7 +229,7 @@ Quick onboarding and project setup.
 
 Most of the projects Clemenger BBDO works on are campaign websites. It’s mostly frontend with a little backend magic—most projects use the serverless approach, API, AWS services, and the like.
 
-Clemenger BBDO 大多数项目是网站设计。他们大部分是前端的（包含小部分后端），大多数项目使用的是无服务器的方式、API、AWS 服务等。
+Clemenger BBDO 大多数项目是活动网站。他们大部分是前端的（包含小部分后端），大多数项目使用的是无服务器的方式、API、AWS 服务等。
 
 Working on different projects simultaneously under strict deadlines, Clemenger BBDO had to devise a standardized solution that would significantly ncrease development speed and be flexible enough to workacross very different experiences.
 
@@ -244,6 +244,7 @@ Working on different projects simultaneously under strict deadlines, Clemenger B
 > 快节奏的环境意味着我们需要人们能够快速地投入到新的工具。有时我们也需要与外部承包商合作，所以对于我们最完美的方案是那些很容易学习和用于工作的东西。Vue在工作流程方面给了我们很大的灵活性——例如，能够与已经知道的 HTML 和 CSS 的预处理器一起工作是一个很大的优势。
 
 On client projects, Sylvain and his team worked with a variety of different JavaScript frameworks.
+在客户端项目上，Sylvain 和他的团队使用了不同的 JavaScript 框架。
 
 > I feel like we’ve tried all of them! Sylvain laughs.
 
@@ -255,11 +256,11 @@ On client projects, Sylvain and his team worked with a variety of different Java
 
 Interactive campaign websites are challenging in many ways.
 
-交互式网站设计到处是挑战。
+交互式活动网站到处是挑战。
 
 > You have to deal with SEO, accessibility, and extended browser support—but also deliver on animations, transitions, and very interactive interfaces in general. Combining those is definitely the most challenging aspect of our work.
 
-> 您必须处理 SEO、可访问性和浏览器兼容性，但同时也要实现一般的动画、转换和很多交互界面。这些无疑是我们工作中最具挑战性的方面。
+> 您必须处理 SEO、可访问性和浏览器兼容性，但同时也要实现一般的动画、过渡和很多交互界面。这些无疑是我们工作中最具挑战性的方面。
 
 #### Solution
 #### 解决方案
@@ -286,11 +287,11 @@ For every website Clemenger works on, it’s important to make it visible for bo
 
 Sylvain uses Vue.js to deal with animations and transitions.
 
-Sylvain 使用 Vue.js 来处理动画和渐变效果。
+Sylvain 使用 Vue.js 来处理动画和过渡效果。
 
 > Right now we are changing our way of approaching animations. Since the release of Vue’s most recent version, there is now a lot more flexibility with the transitions. We now have a more granular access to the transition hooks, that makes it possible to trigger third-party libraries and deliver on complex animations, while still using Vue at the core. I’m trying to push my team to move to that model.
 
-> 现在我们正在改变我们实现动画的方式。自从 Vue 的最新版本发布以来，现在的渐变效果有了更多的灵活性。我们现在有了一个更细粒度的转换钩子，这使得可以触发第三方库并实现复杂的动画，同时核心仍使用 Vue。我正努力推动我的团队走向那种模式。
+> 现在我们正在改变我们实现动画的方式。自从 Vue 的最新版本发布以来，现在的过渡效果有了更多的灵活性。我们现在有了一个更细粒度的转换钩子，这使得可以触发第三方库并实现复杂的动画，同时核心仍使用 Vue。我正努力推动我的团队走向那种模式。
 
 For Airbnb’s campaign website—“Until we all belong”—Vue.js was the technology of choice.
 
@@ -300,11 +301,11 @@ For Airbnb’s campaign website—“Until we all belong”—Vue.js was the tec
 
 > The project is designed as a single page application, based on Vue and webpack at the start. For better efficiency, the web views were hosted in Amazon S3 buckets, which means that we couldn’t use any server-side rendering. Every part of the UI and every page have been built using Vue single file components. In this kind of website, where we are anticipating major traffic, performance is key, and that’s why everything is loaded on-demand. In one of our projects we were recording 6,000 visitors per minute—it was a big buzz. We need to be ready for that, Sylvain explains.
 
-> 该项目最初设计为一个单页面应用，基于 Vue 和 webpack。为了提高效率，web 页面托管在 Amazon S3 bucket 中，这意味着我们不能使用任何服务器端渲染。UI 的每个部分和每个页面都是使用 Vue 单个文件组件构建的。在这样一个预期会有大流量的网站上，性能是关键，这就是为什么所有东西都按需加载。我们的一个项目记录到了每分钟 6000 个的访问量——相当大了。我们需要做好准备，Sylvain 解释道。
+> 该项目最初设计为一个单页面应用，基于 Vue 和 webpack。为了提高效率，web 页面托管在 Amazon S3 bucket 中，这意味着我们不能使用任何服务器端渲染。UI 的每个部分和每个页面都是使用 Vue 单个文件组件构建的。在这样一个预期会有大流量的网站上，性能是关键，这就是为什么所有东西都按需加载。我们的一个项目记录到了每分钟 6000 个的访问量——是非常大的。我们需要做好准备，Sylvain 解释道。
 
 > Vue.js can be a lifesaver in such cases. For the Airbnb project there were big image assets in the background that we needed to load and animate. For that purpose, we’ve used Vue-router to declaratively list assets or data that required pre-loading, and VueX to keep track of those on every page. The project was also challenging in term of interactions, but we’ve managed to deliver the website within 6 weeks.
 
-> 在这种情况下，Vue.js 是救星。对于 Airbnb 项目，背景中有很大的图片资源需要加载以及应用动画。为此，我们使用 Vue-router 来声明需要预加载的资源或数据，而 VueX 则负责跟踪每一页上的内容。这个项目在交互方面也很有挑战性，但我们在6周内就成功推出了这个网站。
+> 在这种情况下，Vue.js 是救星。对于 Airbnb 项目，背景中有很大的图片资源需要加载以及应用动画。为此，我们使用 Vue-router 来声明需要预加载的资源或数据，而 VueX 则负责跟踪每一页上的内容。这个项目在交互方面也很有挑战性，但我们在6周内就成功发布了这个网站。
 
 ![1509690342(1).jpg](https://ooo.0o0.ooo/2017/11/03/59fc0bf296b5a.jpg)
 
@@ -325,4 +326,4 @@ With Vue.js, the Clemenger team is able to tackle a wide range of different proj
 
 > We now have quite a few projects built upon Vue.js. Airbnb’s Until we all belong, a campaign for marriage equality in Australia, was recognized with a number of industry awards, including AWWWARDS and CSSDA. Another project—Meet Graham which introduce the only person designed to survive on our roads, Graham. Within the first week, the project recorded more than 10 millions page views and it got immersive recognition and media coverage. It was highly acclaimed and received numerous awards, including the Grand Prix at Cannes Lion 2017. One of our most recent project is Snickers Hungerithm, where we’ve decided to rewrite the campaign app using Vue.js for the global rollout. Hungerithm is a hunger-algorithm that monitors online mood using tweets. When anger goes up, Snickers prices goes down in real-time.
 
-> 我们现在有相当多的项目建立在 Vue.js 之上。“Airbnb’s Until we all belong”，一个澳大利亚的婚姻平等活动，已经获得了一些行业奖项，包括 AWWWARDS 和 CSSDA。另一个项目--Meet Graham which introduce the only person designed to survive on our roads, Graham。在第一周内，该项目记录了超过 1000 万的页面浏览量，并获得了身临其境的公认和媒体报道。它备受好评，并获得了众多奖项，包括 2017 年戛纳国际电影节大奖。我们最近的一个项目是 Snickers Hungerithm，这次我们决定用 Vue 重写活动应用用于全球推广。Hungerithm 是饥饿识别算法，可以通过 tweet 来监控在线情绪。当饥饿度上升时，士力架的价格就会实时下降。
+> 我们现在有相当多的项目建立在 Vue.js 之上。“Airbnb’s Until we all belong”，一个澳大利亚的婚姻平等活动，已经获得了一些行业奖项，包括 AWWWARDS 和 CSSDA。另一个项目--Meet Graham which introduce the only person designed to survive on our roads, Graham。在第一周内，该项目记录了超过 1000 万的页面浏览量，并获得了身临其境的公认和媒体报道。它备受好评，并获得了众多奖项，包括 2017 年戛纳国际电影节大奖。我们最近的一个项目是 Snickers Hungerithm，这次我们决定用 Vue 重写活动应用用于全球推广。Hungerithm 是饥饿识别算法，可以通过推文来监控在线情绪。当饥饿度上升时，士力架的价格就会实时下降。
