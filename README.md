@@ -6,7 +6,7 @@
 > * Event Organizer：[leviding](https://github.com/leviding)
 > * Translaters：[sasa-m](https://github.com/sasa-m)、[altairlu](https://github.com/altairlu)、[ParadeTo](https://github.com/ParadeTo)、[ly525](https://github.com/ly525)、[zwwill](https://github.com/zwwill)、[html5challenge](https://github.com/html5challenge)、[vxqqb](https://github.com/vxqqb)
 > * Reviewers：
-> * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md)
+> * 本文永久链接：[https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md](https://github.com/xitu/gold-miner/blob/master/TODO/state-of-vue-report-2017.md)
 
 ## 序
 
