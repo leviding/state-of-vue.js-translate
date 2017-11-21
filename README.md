@@ -41,7 +41,7 @@
 
 ### 主要贡献者
 
-![](https://i.niupic.com/images/2017/10/31/gLIe1Z.png)
+![](https://user-gold-cdn.xitu.io/2017/11/21/15fdc7d743074a0d?imageView2/0/w/1280/h/960/format/webp/ignore-error/1)
 
 ## Vue.js 的演变
 
